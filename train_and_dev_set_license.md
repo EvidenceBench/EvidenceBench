@@ -1,4 +1,4 @@
-# Train and Dev Set License:
+# License for Train and Dev Set:
 
 # Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
 
