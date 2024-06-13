@@ -143,7 +143,7 @@
             "Additional studies, larger and more comprehensive than the present one, with follow-up of the infants, are needed.",
             "Such studies would help determine potential health risks, if any, from DEHP exposure among NICU infants."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_0_aspect_0",
             "evidencebench_dev_id_0_aspect_1",
             "evidencebench_dev_id_0_aspect_2",
@@ -163,7 +163,7 @@
             "evidencebench_dev_id_0_aspect_16",
             "evidencebench_dev_id_0_aspect_17"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_0_aspect_8",
             "evidencebench_dev_id_0_aspect_9",
             "evidencebench_dev_id_0_aspect_10",
@@ -998,7 +998,7 @@
             ".-Effect of Treatment on Incidence of Squamous Neoplasms (Sq.N) and on Mean Grades of Severity of Chronic Respiratory Diseases (CRD), and of Columnar and Cuboidal Metaplasia (CCM) and Squamous Metaplasia (Sq.M) of Alveolar Epithelium*",
             "We should like to thank Mr H. Hainey and Mrs C. Hemming who performed many of the intratracheal instilla- tions and who were responsible for the ani- mal husbandry and also Mrs E. A. McFar- lane for assistance with the organization and collection of the data from the ex- periments."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_1_aspect_0",
             "evidencebench_dev_id_1_aspect_1",
             "evidencebench_dev_id_1_aspect_2",
@@ -1008,7 +1008,7 @@
             "evidencebench_dev_id_1_aspect_6",
             "evidencebench_dev_id_1_aspect_7"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_1_aspect_5",
             "evidencebench_dev_id_1_aspect_6",
             "evidencebench_dev_id_1_aspect_7"
@@ -1904,7 +1904,7 @@
             "a Model adjusted for maternal race, maternal education, family income and age.",
             "British Journal of Cancer (1999) 81(5), 900-906 \u00a9 1999 Cancer Research Campaign"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_2_aspect_0",
             "evidencebench_dev_id_2_aspect_1",
             "evidencebench_dev_id_2_aspect_2",
@@ -1919,7 +1919,7 @@
             "evidencebench_dev_id_2_aspect_12",
             "evidencebench_dev_id_2_aspect_13"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_2_aspect_11",
             "evidencebench_dev_id_2_aspect_12",
             "evidencebench_dev_id_2_aspect_13"
@@ -2596,7 +2596,7 @@
             "Our results suggest that there may be an association between exposures related to working as a firefighter and a biological marker of reproductive health, AMH.",
             "Future research should include a larger sample of female firefighters and non-firefighters as well as longitudinal analysis to further investigate these findings."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_3_aspect_0",
             "evidencebench_dev_id_3_aspect_1",
             "evidencebench_dev_id_3_aspect_2",
@@ -2605,7 +2605,7 @@
             "evidencebench_dev_id_3_aspect_5",
             "evidencebench_dev_id_3_aspect_6"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_3_aspect_6"
         ],
         "aspect2sentence_indices": {
@@ -3301,7 +3301,7 @@
             "The incidence of lung cancer was increased among the workers exposed to cobalt-aluminate spinel, but the incidence was also increased among worl<ers froin the reference department.",
             "The study was based on few persons, and we recommend that it be up-dated as soon as cancer incidence data for an additional five-year period are available."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_4_aspect_0",
             "evidencebench_dev_id_4_aspect_1",
             "evidencebench_dev_id_4_aspect_2",
@@ -3323,7 +3323,7 @@
             "evidencebench_dev_id_4_aspect_21",
             "evidencebench_dev_id_4_aspect_22"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_4_aspect_7",
             "evidencebench_dev_id_4_aspect_8",
             "evidencebench_dev_id_4_aspect_9",
@@ -4185,7 +4185,7 @@
             "Nevertheless, epidemiologic studies of pregnant women suffering from hypothyroxinemia (low fT4) have shown that reduced transfer of maternal fT4 during fetal brain maturation can negatively affect the neurocognitive function in infants.",
             "Results from the neurodevelopment assessment of the participating infants in this cohort will allow us to determine whether a reduction of fT4 concentrations during fetal development, perhaps mediated by PCP, may induce deficits similar to those observed in the offspring of hypothyroxinemic pregnant women."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_5_aspect_0",
             "evidencebench_dev_id_5_aspect_1",
             "evidencebench_dev_id_5_aspect_2",
@@ -4194,7 +4194,7 @@
             "evidencebench_dev_id_5_aspect_5",
             "evidencebench_dev_id_5_aspect_6"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_5_aspect_1",
             "evidencebench_dev_id_5_aspect_2",
             "evidencebench_dev_id_5_aspect_3",
@@ -4867,7 +4867,7 @@
             "The author acknowledges the financial support of the National Institute of Environmental Health Sciences and numerous discussions with many coileagues including S. Bondy, L. Chang, M. Cheung, G. Goldstein, D. Holzman, T. Sara- fian, E. Silbergeld, and H. Tilson.",
             "The editorial assistance of S. Brooks is gratefully appreciated."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_6_aspect_0",
             "evidencebench_dev_id_6_aspect_1",
             "evidencebench_dev_id_6_aspect_2",
@@ -4896,7 +4896,7 @@
             "evidencebench_dev_id_6_aspect_25",
             "evidencebench_dev_id_6_aspect_26"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_6_aspect_10",
             "evidencebench_dev_id_6_aspect_11",
             "evidencebench_dev_id_6_aspect_17",
@@ -5602,7 +5602,7 @@
             "I am grateful to Professor T Wilczok for his general supervision of the experimental work.",
             "I would like to thank the Managing Board of the Zabrze Cokery Plant for their kind permission to continue my research and Mr S Kurkiewicz and Ms K Klimek for their kind help in the GC-MS measurements and statistical analyses."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_7_aspect_0",
             "evidencebench_dev_id_7_aspect_2",
             "evidencebench_dev_id_7_aspect_3",
@@ -5611,7 +5611,7 @@
             "evidencebench_dev_id_7_aspect_6",
             "evidencebench_dev_id_7_aspect_7"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_7_aspect_3",
             "evidencebench_dev_id_7_aspect_4",
             "evidencebench_dev_id_7_aspect_5",
@@ -6147,11 +6147,11 @@
             "Chemicals",
             "Analytical grade reagents phthalates, butyl benzoate (internal standard), metal standard stock solutions (1000 mg/L) and silica gel (Kieselgel, 60, 230\u2013400 mesh) were purchased from Aldrich \u2013 Sigma, Merck, Fluka AG and Rochelle chemicals, South Africa."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_8_aspect_0",
             "evidencebench_dev_id_8_aspect_1"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_8_aspect_1"
         ],
         "aspect2sentence_indices": {
@@ -6701,7 +6701,7 @@
             "RH did the statistical analysis.",
             "All authors approved the final version of the manuscript."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_9_aspect_0",
             "evidencebench_dev_id_9_aspect_1",
             "evidencebench_dev_id_9_aspect_2",
@@ -6709,7 +6709,7 @@
             "evidencebench_dev_id_9_aspect_4",
             "evidencebench_dev_id_9_aspect_5"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_9_aspect_0",
             "evidencebench_dev_id_9_aspect_1",
             "evidencebench_dev_id_9_aspect_2",
@@ -7325,7 +7325,7 @@
             "In fact, there was no relationship between VCM and lung cancer in this analysis; yet, one would expect the lung to be the major route of entry for VCM regardless of the cancer site.",
             "bE = (45 A) -(45 B x 100/149)."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_10_aspect_0",
             "evidencebench_dev_id_10_aspect_1",
             "evidencebench_dev_id_10_aspect_2",
@@ -7335,7 +7335,7 @@
             "evidencebench_dev_id_10_aspect_7",
             "evidencebench_dev_id_10_aspect_8"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_10_aspect_2",
             "evidencebench_dev_id_10_aspect_3",
             "evidencebench_dev_id_10_aspect_5",
@@ -7834,13 +7834,13 @@
             "*",
             "'Exposure conditions and number of animals per group as reported in Table"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_11_aspect_0",
             "evidencebench_dev_id_11_aspect_1",
             "evidencebench_dev_id_11_aspect_2",
             "evidencebench_dev_id_11_aspect_3"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_11_aspect_3"
         ],
         "aspect2sentence_indices": {
@@ -8383,12 +8383,12 @@
             "Further, these data support the fact that FENO is a relatively simple, noninvasive measure to explore the mechanisms responsible for respiratory effects in air pollution epidemiologic field studies.",
             "Further research on susceptible populations is needed to understand the association between combustion-derived PM and airway inflammation."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_12_aspect_0",
             "evidencebench_dev_id_12_aspect_1",
             "evidencebench_dev_id_12_aspect_2"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_12_aspect_1",
             "evidencebench_dev_id_12_aspect_2"
         ],
@@ -9010,7 +9010,7 @@
             "T h e statistical analysis was performed by B Gullberg, BSc.",
             "The best assistance in the fieldwork was given by the staffs of those health care units serving t h e industries engaged in this study."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_13_aspect_0",
             "evidencebench_dev_id_13_aspect_1",
             "evidencebench_dev_id_13_aspect_2",
@@ -9042,7 +9042,7 @@
             "evidencebench_dev_id_13_aspect_35",
             "evidencebench_dev_id_13_aspect_36"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_13_aspect_32",
             "evidencebench_dev_id_13_aspect_33",
             "evidencebench_dev_id_13_aspect_34",
@@ -9647,7 +9647,7 @@
             "Number of mice killed (weeks).",
             "-nitro-4 -amino-3 -hydroxy P = Probability evaluated by the exact method for 2 X 2 tables"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_14_aspect_0",
             "evidencebench_dev_id_14_aspect_1",
             "evidencebench_dev_id_14_aspect_2",
@@ -9658,7 +9658,7 @@
             "evidencebench_dev_id_14_aspect_8",
             "evidencebench_dev_id_14_aspect_10"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_14_aspect_8",
             "evidencebench_dev_id_14_aspect_10",
             "evidencebench_dev_id_14_aspect_5",
@@ -10213,12 +10213,12 @@
             "Environmental Health Perspectives * Vol 104, Supplement 6 * December 1996",
             "Environmental Health Perspectives * Vol 104, Supplement 6 * December 1996"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_15_aspect_0",
             "evidencebench_dev_id_15_aspect_1",
             "evidencebench_dev_id_15_aspect_2"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_15_aspect_0",
             "evidencebench_dev_id_15_aspect_1",
             "evidencebench_dev_id_15_aspect_2"
@@ -10775,12 +10775,12 @@
             "Urine cytology screening for BKV reactivation post-transplantation is now routine in many units, including ours.",
             "Long-term follow-up of these patients is required to demonstrate an association between viral reactivation and subsequent tumour development, and thus confirm the potential oncogenic role of BKV."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_16_aspect_0",
             "evidencebench_dev_id_16_aspect_1",
             "evidencebench_dev_id_16_aspect_2"
         ],
-        "results_aspect_list_anonymized": null,
+        "results_aspect_list_ids": null,
         "aspect2sentence_indices": {
             "evidencebench_dev_id_16_aspect_0": [
                 64,
@@ -11181,12 +11181,12 @@
             "Acknowledgements",
             "Financial support for this work came from grants from the Progetto finalizzato ACRO of CNR, Progetto finalizzato FATMA, EEC pro- gram AIR (Grant No. CT94/0933), Regione Toscana and MURST."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_17_aspect_0",
             "evidencebench_dev_id_17_aspect_1",
             "evidencebench_dev_id_17_aspect_2"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_17_aspect_1",
             "evidencebench_dev_id_17_aspect_2"
         ],
@@ -11790,14 +11790,14 @@
             "We are grateful to the workers, their trade unions, and management for their assistance and to H Robinson for her help in test administration.",
             "Additional thanks are due to Drs CJ MacKay, AR Scott, and JS Snowden for their helpful comments."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_18_aspect_0",
             "evidencebench_dev_id_18_aspect_1",
             "evidencebench_dev_id_18_aspect_2",
             "evidencebench_dev_id_18_aspect_3",
             "evidencebench_dev_id_18_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_18_aspect_3",
             "evidencebench_dev_id_18_aspect_4"
         ],
@@ -12474,7 +12474,7 @@
             "Sera were collected for testing 10 days after boosting.",
             "Rabbit serum specific for MPyV VP1 was a generous gift from the lab of Dr. Thomas L. Benjamin (Harvard)."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_19_aspect_0",
             "evidencebench_dev_id_19_aspect_1",
             "evidencebench_dev_id_19_aspect_2",
@@ -12488,7 +12488,7 @@
             "evidencebench_dev_id_19_aspect_11",
             "evidencebench_dev_id_19_aspect_12"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_19_aspect_6",
             "evidencebench_dev_id_19_aspect_7",
             "evidencebench_dev_id_19_aspect_8",
@@ -13510,14 +13510,14 @@
             "The favorable survival in HRT users seemed to be confined to those treated with tamoxifen.",
             "We speculatively propose that similarities in gene expression between HRT-exposed tumors and tamoxifen-treated breast cancer cells may indicate the mechanism by which the HRT profile is related to survival."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_20_aspect_0",
             "evidencebench_dev_id_20_aspect_1",
             "evidencebench_dev_id_20_aspect_3",
             "evidencebench_dev_id_20_aspect_4",
             "evidencebench_dev_id_20_aspect_5"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_20_aspect_1",
             "evidencebench_dev_id_20_aspect_3",
             "evidencebench_dev_id_20_aspect_4",
@@ -14374,7 +14374,7 @@
             "Future prospective studies would benefit from larger sample sizes with a balanced study design in order to discern subtle effects.",
             "Additionally, extended follow-up periods with equally spaced repeated measures would be beneficial in accurately assessing effect modification by inflammatory status on the rate of telomere attrition."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_21_aspect_0",
             "evidencebench_dev_id_21_aspect_1",
             "evidencebench_dev_id_21_aspect_2",
@@ -14385,7 +14385,7 @@
             "evidencebench_dev_id_21_aspect_7",
             "evidencebench_dev_id_21_aspect_8"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_21_aspect_8",
             "evidencebench_dev_id_21_aspect_4",
             "evidencebench_dev_id_21_aspect_7"
@@ -15387,12 +15387,12 @@
             "These findings are especially relevant with regard to a case\u2013control study by in this issue that identifies an enhanced risk for bladder cancer associated with DBP exposure among people with genotypes that metabolize various DBPs.",
             "Further research on a wide array of swimming pools under various conditions of maintenance and use are warranted based on the limited but developing data now available on the chemical composition and health risks of swimming pool water."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_22_aspect_1",
             "evidencebench_dev_id_22_aspect_2",
             "evidencebench_dev_id_22_aspect_3"
         ],
-        "results_aspect_list_anonymized": null,
+        "results_aspect_list_ids": null,
         "aspect2sentence_indices": {
             "evidencebench_dev_id_22_aspect_1": [
                 3,
@@ -16129,14 +16129,14 @@
             "The study was authorized and supported by the Ministry of Environment, Energy, Youth, Family",
             "For as little as %3.Q9* per year per user, your students can have full"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_23_aspect_0",
             "evidencebench_dev_id_23_aspect_1",
             "evidencebench_dev_id_23_aspect_2",
             "evidencebench_dev_id_23_aspect_3",
             "evidencebench_dev_id_23_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_23_aspect_2",
             "evidencebench_dev_id_23_aspect_3",
             "evidencebench_dev_id_23_aspect_4"
@@ -17010,7 +17010,7 @@
             "Stump for their help in preparing this paper.",
             "This work was partially funded by a grant from the Andrew W. Mellon Foundation to the Carolina Population Center, and by the National Center for Environmental Assessment of the U.S. EPA. Work"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_24_aspect_0",
             "evidencebench_dev_id_24_aspect_1",
             "evidencebench_dev_id_24_aspect_3",
@@ -17026,7 +17026,7 @@
             "evidencebench_dev_id_24_aspect_14",
             "evidencebench_dev_id_24_aspect_15"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_24_aspect_14",
             "evidencebench_dev_id_24_aspect_15"
         ],
@@ -17892,7 +17892,7 @@
             "Genet.",
             "-Hereditas 47: 159"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_25_aspect_0",
             "evidencebench_dev_id_25_aspect_1",
             "evidencebench_dev_id_25_aspect_4",
@@ -17905,7 +17905,7 @@
             "evidencebench_dev_id_25_aspect_11",
             "evidencebench_dev_id_25_aspect_12"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_25_aspect_0",
             "evidencebench_dev_id_25_aspect_1"
         ],
@@ -18507,7 +18507,7 @@
             "Differences were compared by Scheff\u00e9's method after analysis of variance (ANOVA).",
             "A p value < 0.05 was considered as statistically significant."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_26_aspect_0",
             "evidencebench_dev_id_26_aspect_1",
             "evidencebench_dev_id_26_aspect_2",
@@ -18518,7 +18518,7 @@
             "evidencebench_dev_id_26_aspect_7",
             "evidencebench_dev_id_26_aspect_8"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_26_aspect_8",
             "evidencebench_dev_id_26_aspect_5",
             "evidencebench_dev_id_26_aspect_6",
@@ -19428,7 +19428,7 @@
             "Ms L Mikkelsen and Ms P Neijendam assisted with the data collection.",
             "The study was supported by the Commission of the European Communities, grant ECI-1531-B721O-DK."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_27_aspect_0",
             "evidencebench_dev_id_27_aspect_1",
             "evidencebench_dev_id_27_aspect_2",
@@ -19445,7 +19445,7 @@
             "evidencebench_dev_id_27_aspect_16",
             "evidencebench_dev_id_27_aspect_17"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_27_aspect_10",
             "evidencebench_dev_id_27_aspect_11",
             "evidencebench_dev_id_27_aspect_13",
@@ -20049,12 +20049,12 @@
             "and DNA adduct levels (RAL) in human urinary bladder Measurement (units; number of individuals)",
             "coefficients (r) and P values"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_28_aspect_0",
             "evidencebench_dev_id_28_aspect_1",
             "evidencebench_dev_id_28_aspect_2"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_28_aspect_1",
             "evidencebench_dev_id_28_aspect_2"
         ],
@@ -20368,7 +20368,7 @@
             "We also thank the pathologists, clinicians and general practitioners who assisted us in the study.",
             "The study was funded by the Chief Scientist Office, Scottish Office; the LORS, East Anglia; Special Trustees of the Nottingham University Hospitals, Trent; and the Medical Research Council, Oxford."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_29_aspect_0",
             "evidencebench_dev_id_29_aspect_1",
             "evidencebench_dev_id_29_aspect_2",
@@ -20379,7 +20379,7 @@
             "evidencebench_dev_id_29_aspect_7",
             "evidencebench_dev_id_29_aspect_8"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_29_aspect_8",
             "evidencebench_dev_id_29_aspect_7"
         ],
@@ -20880,7 +20880,7 @@
             "a Lipid-and recovery-corrected serum concentrations.",
             "b Uncorrected serum concentrations. c"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_30_aspect_0",
             "evidencebench_dev_id_30_aspect_1",
             "evidencebench_dev_id_30_aspect_2",
@@ -20889,7 +20889,7 @@
             "evidencebench_dev_id_30_aspect_5",
             "evidencebench_dev_id_30_aspect_6"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_30_aspect_5",
             "evidencebench_dev_id_30_aspect_6"
         ],
@@ -21576,13 +21576,13 @@
             "In a second batch of 41 similar mice, 30 of which are still alive, one active squamous papilloma has been noted to date.",
             "The varying degrees of epidermal and dermal change seen in the ears of all the mice are recorded, and are found to be substantially the same ill appearance as those caused by the carcinogenic cyclic hydrocarbons."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_31_aspect_0",
             "evidencebench_dev_id_31_aspect_1",
             "evidencebench_dev_id_31_aspect_2",
             "evidencebench_dev_id_31_aspect_3"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_31_aspect_2",
             "evidencebench_dev_id_31_aspect_3"
         ],
@@ -22413,7 +22413,7 @@
             "Although we examined laboratory processes in an environmental research laboratory, similar results are also possible in other laboratories that use similar materials (e.g., functionalized CNMs), similar tasks (e.g., sonication), and similar dispersive agents (e.g., surfactants).",
             "Additional research is needed to better characterize CNM emissions and worker exposure during handling and sonication to corroborate the results of this case study."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_32_aspect_0",
             "evidencebench_dev_id_32_aspect_2",
             "evidencebench_dev_id_32_aspect_4",
@@ -22425,7 +22425,7 @@
             "evidencebench_dev_id_32_aspect_10",
             "evidencebench_dev_id_32_aspect_11"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_32_aspect_8",
             "evidencebench_dev_id_32_aspect_9",
             "evidencebench_dev_id_32_aspect_10",
@@ -23276,14 +23276,14 @@
             "Statistical analysis",
             "Statistical analyses were performed using the GraphPad Prism software and the Mann-Whitney U test or the \u03c72 test."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_33_aspect_0",
             "evidencebench_dev_id_33_aspect_1",
             "evidencebench_dev_id_33_aspect_2",
             "evidencebench_dev_id_33_aspect_3",
             "evidencebench_dev_id_33_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_33_aspect_4"
         ],
         "aspect2sentence_indices": {
@@ -24414,13 +24414,13 @@
             "IQUIBICEN-CONICET.",
             "International Journal of Toxicology 33(1)"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_34_aspect_0",
             "evidencebench_dev_id_34_aspect_1",
             "evidencebench_dev_id_34_aspect_2",
             "evidencebench_dev_id_34_aspect_3"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_34_aspect_0",
             "evidencebench_dev_id_34_aspect_1",
             "evidencebench_dev_id_34_aspect_2",
@@ -25149,7 +25149,7 @@
             "The first 9 countries ranked in order of their death rates comprise the Scandinavian countries, Israel, Netherlands, U.S.A. and Canada for both sexes, with South Africa for males and New Zealand for females, and of these 7 had high levels of coffee consumption.",
             "The 5 with lowest rates in females were Japan, Portugal, United Kingdom, Ireland and Austria in all of which the coffee levels were low."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_35_aspect_0",
             "evidencebench_dev_id_35_aspect_1",
             "evidencebench_dev_id_35_aspect_2",
@@ -25160,7 +25160,7 @@
             "evidencebench_dev_id_35_aspect_7",
             "evidencebench_dev_id_35_aspect_8"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_35_aspect_8",
             "evidencebench_dev_id_35_aspect_5",
             "evidencebench_dev_id_35_aspect_6",
@@ -25808,7 +25808,7 @@
             "The cooperation and financial support of Alcan Smelters and Chemicals Ltd (AS&C) and its employees is gra teful1y acknowledged.",
             "In particular ou r thanks are due to Mr J Cote and Mr M Guy, for their wor k in est imating exposures , and to Dr J Kelly and Mr B MacEach en , for their guidance and general support."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_dev_id_36_aspect_0",
             "evidencebench_dev_id_36_aspect_1",
             "evidencebench_dev_id_36_aspect_2",
@@ -25820,7 +25820,7 @@
             "evidencebench_dev_id_36_aspect_8",
             "evidencebench_dev_id_36_aspect_9"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_dev_id_36_aspect_3",
             "evidencebench_dev_id_36_aspect_4",
             "evidencebench_dev_id_36_aspect_6",

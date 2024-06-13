@@ -133,7 +133,7 @@
             "Acknowledgments",
             "The authors wish to acknowledge Ms. Reina Collado for typing the manuscript and the participation of the"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_0_aspect_0",
             "evidencebench_train_id_0_aspect_1",
             "evidencebench_train_id_0_aspect_2",
@@ -143,7 +143,7 @@
             "evidencebench_train_id_0_aspect_6",
             "evidencebench_train_id_0_aspect_7"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_0_aspect_3",
             "evidencebench_train_id_0_aspect_4",
             "evidencebench_train_id_0_aspect_5",
@@ -725,7 +725,7 @@
             "Yamaoka S and Yamamoto H designed the research; Yamaoka S, Yamamoto H, Nosho K, Taniguchi H, Adachi Y and Sasaki S performed the research; Yamaoka S, Yamamoto H, Arimura Y, Imai K and Shinomura Y analyzed the data; Yamaoka S, Yamamoto H and Shinomura Y wrote the paper.",
             "Supported by Grants-in-Aid for Scientific Research from the Ministry of Education, Culture, Sports, Science and Technology of Japan (Yamamoto H, Imai K and Shinomura Y) and Grantsin-Aid for Cancer Research from the Ministry of Health, Labor"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_1_aspect_0",
             "evidencebench_train_id_1_aspect_1",
             "evidencebench_train_id_1_aspect_2",
@@ -737,7 +737,7 @@
             "evidencebench_train_id_1_aspect_8",
             "evidencebench_train_id_1_aspect_9"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_1_aspect_1",
             "evidencebench_train_id_1_aspect_3",
             "evidencebench_train_id_1_aspect_4",
@@ -1405,14 +1405,14 @@
             "Acknowledgements",
             "This work was supported by Grant PIP 801/98 from the Consejo Nacional de Investigaciones Cient\u0131\u0301ficas y T\u00e9cnicas, Argentina."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_2_aspect_0",
             "evidencebench_train_id_2_aspect_1",
             "evidencebench_train_id_2_aspect_2",
             "evidencebench_train_id_2_aspect_3",
             "evidencebench_train_id_2_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_2_aspect_0",
             "evidencebench_train_id_2_aspect_1",
             "evidencebench_train_id_2_aspect_2"
@@ -1931,14 +1931,14 @@
             "Nevertheless, the fact that infected study participants with solely this exposure have remained difficult to identify may suggest that indeed the contribution of OI to HIV incidence remains low.",
             "The contribution of OI to HIV incidence needs close monitoring and opportunities for further transmission probability studies should be identified and utilized in order to give greater understanding of this neglected mode of transmission."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_3_aspect_0",
             "evidencebench_train_id_3_aspect_1",
             "evidencebench_train_id_3_aspect_2",
             "evidencebench_train_id_3_aspect_3",
             "evidencebench_train_id_3_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_3_aspect_2",
             "evidencebench_train_id_3_aspect_4"
         ],
@@ -2379,11 +2379,11 @@
             "It would be of further interest to study the relationship between HTLV-I, thymoma, and myasthenia gravis in geographic areas where HTLV-I is endemic.",
             "Since the cause of thymoma is unknown, further searches for a viral aetiology may be warranted."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_4_aspect_0",
             "evidencebench_train_id_4_aspect_1"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_4_aspect_0",
             "evidencebench_train_id_4_aspect_1"
         ],
@@ -3055,13 +3055,13 @@
             "\u00d7270.",
             "SABIN, C. A. DOAN, AND C. E. FORKNER"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_5_aspect_0",
             "evidencebench_train_id_5_aspect_1",
             "evidencebench_train_id_5_aspect_3",
             "evidencebench_train_id_5_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_5_aspect_3",
             "evidencebench_train_id_5_aspect_4"
         ],
@@ -4016,7 +4016,7 @@
             "ACKNOWLEDGEMENTS",
             "This research was supported by a grant from National Science Council, Republic of China (Grant No. NSC 89-2314-B-037-113) and an award of the American Bureau for Medical Advancement in China, Inc. (ABMAC) for Ming-Tsang Wu."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_6_aspect_0",
             "evidencebench_train_id_6_aspect_1",
             "evidencebench_train_id_6_aspect_2",
@@ -4032,7 +4032,7 @@
             "evidencebench_train_id_6_aspect_12",
             "evidencebench_train_id_6_aspect_13"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_6_aspect_8",
             "evidencebench_train_id_6_aspect_9",
             "evidencebench_train_id_6_aspect_11",
@@ -4516,7 +4516,7 @@
             "On the other hand, more potent inhibitors may be developed using glyphosate and AMPA as lead compounds.",
             "Based on our findings and the previous report, it appears promising to develop a new anticancer therapy targeting glycine metabolism."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_7_aspect_0",
             "evidencebench_train_id_7_aspect_1",
             "evidencebench_train_id_7_aspect_2",
@@ -4524,7 +4524,7 @@
             "evidencebench_train_id_7_aspect_4",
             "evidencebench_train_id_7_aspect_5"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_7_aspect_0",
             "evidencebench_train_id_7_aspect_1",
             "evidencebench_train_id_7_aspect_2",
@@ -5113,7 +5113,7 @@
             "Tests using the alkaline SCGE assay indicate that the previously reported genotoxicity of FFA is not accompanied by strand breaks.",
             "The alkaline SCGE is a sensitive assay, but should be used in conjunction with other mutagenicity/genotoxicity tests to evaluate the overall potential hazard of substituted furans."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_8_aspect_0",
             "evidencebench_train_id_8_aspect_1",
             "evidencebench_train_id_8_aspect_2",
@@ -5122,7 +5122,7 @@
             "evidencebench_train_id_8_aspect_5",
             "evidencebench_train_id_8_aspect_6"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_8_aspect_0",
             "evidencebench_train_id_8_aspect_6"
         ],
@@ -5829,7 +5829,7 @@
             "Our results do not directly indicate a health risk.",
             "However, the finding that metabolically active and/or proliferating cells are more responsive to RF-EME implies a higher sensitivity of growing organisms."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_9_aspect_0",
             "evidencebench_train_id_9_aspect_2",
             "evidencebench_train_id_9_aspect_3",
@@ -5844,7 +5844,7 @@
             "evidencebench_train_id_9_aspect_13",
             "evidencebench_train_id_9_aspect_14"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_9_aspect_5",
             "evidencebench_train_id_9_aspect_7",
             "evidencebench_train_id_9_aspect_8",
@@ -6633,7 +6633,7 @@
             "CONFLICT OF INTEREST",
             "No potential conflict of interest relevant to this article was reported."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_10_aspect_0",
             "evidencebench_train_id_10_aspect_1",
             "evidencebench_train_id_10_aspect_2",
@@ -6646,7 +6646,7 @@
             "evidencebench_train_id_10_aspect_11",
             "evidencebench_train_id_10_aspect_12"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_10_aspect_11",
             "evidencebench_train_id_10_aspect_12"
         ],
@@ -7187,7 +7187,7 @@
             "We believe that these findings may help increase awareness of thyroid disease occurrence among night shift workers.",
             "Furthermore, we hope that this study can provide the foundation for detailed studies regarding the effects of night shift work on thyroid function and disease, and the association between night shift work duration and TSH levels."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_11_aspect_0",
             "evidencebench_train_id_11_aspect_1",
             "evidencebench_train_id_11_aspect_2",
@@ -7198,7 +7198,7 @@
             "evidencebench_train_id_11_aspect_7",
             "evidencebench_train_id_11_aspect_8"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_11_aspect_4",
             "evidencebench_train_id_11_aspect_5",
             "evidencebench_train_id_11_aspect_6",
@@ -7730,14 +7730,14 @@
             "These observations can help us to understand the mechanisms underlying the relationship between work schedule and CVD onset.",
             "Further studies are needed to assess the association between temporal variations in shift work and IL-6; additionally, interventions such as lifestyle changes should be considered."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_12_aspect_0",
             "evidencebench_train_id_12_aspect_1",
             "evidencebench_train_id_12_aspect_2",
             "evidencebench_train_id_12_aspect_3",
             "evidencebench_train_id_12_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_12_aspect_3",
             "evidencebench_train_id_12_aspect_4"
         ],
@@ -8439,12 +8439,12 @@
             "While this is important for Interphone, it will be particularly important in future epidemiological studies in which a greater proportion of subjects will have used higher 1500, 1800\u20131900, 2200\u2005MHz frequency bands and communication systems with more efficient power control like CDMA and UMTS.",
             "Efforts to investigate different dose metrics and to quantify the uncertainties described above in future, more detailed studies are needed to improve dose estimation and reduce uncertainty in case\u2013control and cohort studies of brain tumours and RF exposure from mobile telephones."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_13_aspect_0",
             "evidencebench_train_id_13_aspect_2",
             "evidencebench_train_id_13_aspect_3"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_13_aspect_2",
             "evidencebench_train_id_13_aspect_3"
         ],
@@ -9136,7 +9136,7 @@
             "The authors wish to thank Mrs Miyuki Kitaoka, Mrs Yuki Ogawa and Mrs Fumiko Komoda for their excellent secretarial and technical supports.",
             "This work was supported by a Grant-in-Aid for General Scientific Research Tel: +86-21-5492-2824; Fax: +86-21-5492-2825; Shanghai, China (17591704) from the Ministry of Education, Science, Sports and Culture, Japan."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_14_aspect_0",
             "evidencebench_train_id_14_aspect_1",
             "evidencebench_train_id_14_aspect_2",
@@ -9151,7 +9151,7 @@
             "evidencebench_train_id_14_aspect_11",
             "evidencebench_train_id_14_aspect_12"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_14_aspect_7",
             "evidencebench_train_id_14_aspect_8",
             "evidencebench_train_id_14_aspect_9",
@@ -9771,13 +9771,13 @@
             "Therefore, knowing the SV40 infective status of the recipients would not decrease the strength of the result observed in the recipients of organs from positive donors, none of whom developed cancer.",
             "In conclusion, SV40 positive donors do not seem to increase the risk of cancer after transplantation."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_15_aspect_1",
             "evidencebench_train_id_15_aspect_2",
             "evidencebench_train_id_15_aspect_3",
             "evidencebench_train_id_15_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_15_aspect_3",
             "evidencebench_train_id_15_aspect_4"
         ],
@@ -10218,7 +10218,7 @@
             "Our results suggest that parental occupational exposures to solvents may be related to CBT.",
             "In particular, paternal exposure to aromatic solvents and maternal exposure to chlorinated solvents appeared to be associated with an increased risk of CBT in their offspring."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_16_aspect_0",
             "evidencebench_train_id_16_aspect_1",
             "evidencebench_train_id_16_aspect_2",
@@ -10226,7 +10226,7 @@
             "evidencebench_train_id_16_aspect_5",
             "evidencebench_train_id_16_aspect_6"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_16_aspect_1",
             "evidencebench_train_id_16_aspect_2",
             "evidencebench_train_id_16_aspect_4",
@@ -10783,7 +10783,7 @@
             "The authors greatly thank Ms. Handa for her great help.",
             "Conflicts of interest: The authors declare no conflict of interest."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_17_aspect_0",
             "evidencebench_train_id_17_aspect_2",
             "evidencebench_train_id_17_aspect_3",
@@ -10791,7 +10791,7 @@
             "evidencebench_train_id_17_aspect_5",
             "evidencebench_train_id_17_aspect_6"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_17_aspect_0"
         ],
         "aspect2sentence_indices": {
@@ -11342,7 +11342,7 @@
             "A comparison of data obtained by exposing cells to Ara-C, rather than theophylline, indicates that both the above phenomena are not a direct result of inhibition of DNA synthesis.",
             "At present, our best explanation of our results is that the associations between the inhibition of DNA synthesis, the altered nuclear morphometry, and the inhibition of histone 1 phosphorylation are related causally ."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_18_aspect_0",
             "evidencebench_train_id_18_aspect_1",
             "evidencebench_train_id_18_aspect_2",
@@ -11350,7 +11350,7 @@
             "evidencebench_train_id_18_aspect_4",
             "evidencebench_train_id_18_aspect_5"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_18_aspect_2",
             "evidencebench_train_id_18_aspect_3",
             "evidencebench_train_id_18_aspect_4",
@@ -12114,13 +12114,13 @@
             "We thank S\u00f6ren Holmgren, Department of Nutritional Research and Pathology for managing the database.",
             "Supported by grants from Lion's Research Foundation, Ume\u00e5 and by the Swedish Cancer Society."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_19_aspect_0",
             "evidencebench_train_id_19_aspect_1",
             "evidencebench_train_id_19_aspect_2",
             "evidencebench_train_id_19_aspect_3"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_19_aspect_2",
             "evidencebench_train_id_19_aspect_3"
         ],
@@ -12627,12 +12627,12 @@
             "In conclusion, we found that moderate alcohol intake was associated with a lower risk of renal cell cancer.",
             "In particular, intake of wine, both red and white, and strong beer was associated with a reduced risk of renal cell cancer in this Swedish population."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_20_aspect_0",
             "evidencebench_train_id_20_aspect_1",
             "evidencebench_train_id_20_aspect_2"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_20_aspect_1"
         ],
         "aspect2sentence_indices": {
@@ -13259,7 +13259,7 @@
             "Concordance of expression in two representative functionally involved genes in the in vivo analysis was confirmed in vitro, and the novel computational model was validated as a useful method to identify potential toxicity pathways.",
             "The use of these toxicogenomics data and in vivo animal model-based gene expression profiling integrated with in vitro verification may allow for successful in vitro toxicity profiling of MWCNT as well as the identification of potential signaling pathways involved in the etiology of MWCNT-induced injury."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_21_aspect_0",
             "evidencebench_train_id_21_aspect_2",
             "evidencebench_train_id_21_aspect_3",
@@ -13274,7 +13274,7 @@
             "evidencebench_train_id_21_aspect_13",
             "evidencebench_train_id_21_aspect_14"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_21_aspect_7",
             "evidencebench_train_id_21_aspect_8",
             "evidencebench_train_id_21_aspect_9",
@@ -14238,13 +14238,13 @@
             "The major strengths of this study of Swedish construction workers are its large size, the prospective collection of exposure details and almost complete follow-up.",
             "Any residual misclassification would presumably be nondifferential and would not have any major impact on the findings."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_22_aspect_0",
             "evidencebench_train_id_22_aspect_1",
             "evidencebench_train_id_22_aspect_2",
             "evidencebench_train_id_22_aspect_3"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_22_aspect_1",
             "evidencebench_train_id_22_aspect_2"
         ],
@@ -14561,7 +14561,7 @@
             "With respect to paan chewing, either its adverse effect on cervical cancer is real and, possibly, mediated by a decreased ability of women who chew to clear HPV infection, or the habit of chewing is a surrogate marker for increased HPV exposure.",
             "Future prospective studies could evaluate the influence of paan chewing in the natural history of HPV infection and the development of preinvasive cervical lesions."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_23_aspect_0",
             "evidencebench_train_id_23_aspect_1",
             "evidencebench_train_id_23_aspect_2",
@@ -14570,7 +14570,7 @@
             "evidencebench_train_id_23_aspect_5",
             "evidencebench_train_id_23_aspect_6"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_23_aspect_3",
             "evidencebench_train_id_23_aspect_4",
             "evidencebench_train_id_23_aspect_5",
@@ -15012,14 +15012,14 @@
             "Deborah Glass received funding from the Australian Institute of Petroleum via Monash University for studies among petroleum workers.",
             "For the present work, funding from study sponsors to Gong Tang was received via ExxonMobil Biomedical Sciences, Inc."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_24_aspect_0",
             "evidencebench_train_id_24_aspect_1",
             "evidencebench_train_id_24_aspect_2",
             "evidencebench_train_id_24_aspect_3",
             "evidencebench_train_id_24_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_24_aspect_1",
             "evidencebench_train_id_24_aspect_2",
             "evidencebench_train_id_24_aspect_3",
@@ -15550,14 +15550,14 @@
             "It may ultimately be possible to improve the prediction of postsurgical outcome in SIL by assessing specific genomic abnormalities in the excised lesion.",
             "Our findings now require validation in a different, larger group of cases, using higher resolution approaches."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_25_aspect_0",
             "evidencebench_train_id_25_aspect_1",
             "evidencebench_train_id_25_aspect_2",
             "evidencebench_train_id_25_aspect_3",
             "evidencebench_train_id_25_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_25_aspect_3",
             "evidencebench_train_id_25_aspect_4"
         ],
@@ -16249,7 +16249,7 @@
             "Our thanks also goes to the interviewers: B Pearlman, R Steer, J Antill, A Corrigan, G Demopoulos, M Dickson, M Ewings, J Hodgson, D Hughes, A Johnson, K Kruger, H Lilley, A Linnell, S Muir, J O'Sullivan, S Pope, C Richardson, P Roberts, B Routledge, P Sanders and D Sayer; the computer programmers: I Cope, S Khan and D Rowland; and the clerks: D Bright, B Cooper, H Cusack, S Fitzpatrick, Y Purkis, D Robinson, A Tinkler and R Yarrow.",
             "G Dovey, G Law, A Moorman, S Rollinson and A Smith are thanked for their comments on the manuscript."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_26_aspect_0",
             "evidencebench_train_id_26_aspect_1",
             "evidencebench_train_id_26_aspect_2",
@@ -16257,7 +16257,7 @@
             "evidencebench_train_id_26_aspect_4",
             "evidencebench_train_id_26_aspect_6"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_26_aspect_4",
             "evidencebench_train_id_26_aspect_6"
         ],
@@ -16785,7 +16785,7 @@
             "It also provides an illustration of the weakness of the doses due to routine discharges compared to other sources of exposure to ionising radiation.",
             "No evidence was found for a general increase or trend in the incidence of childhood leukaemia according to this zoning in the vicinity of the 23 French nuclear installations considered for the period 1990\u20132001."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_27_aspect_0",
             "evidencebench_train_id_27_aspect_1",
             "evidencebench_train_id_27_aspect_2",
@@ -16795,7 +16795,7 @@
             "evidencebench_train_id_27_aspect_6",
             "evidencebench_train_id_27_aspect_7"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_27_aspect_2"
         ],
         "aspect2sentence_indices": {
@@ -17398,7 +17398,7 @@
             "Therefore, p53 mutation is rare in cervical cancers.",
             "However, there are reports suggesting that the association between HPV infection and p53 mutation differs among tumours, suggesting that additional mechanisms may be involved in tumorigenesis of other origins."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_28_aspect_0",
             "evidencebench_train_id_28_aspect_1",
             "evidencebench_train_id_28_aspect_2",
@@ -17411,7 +17411,7 @@
             "evidencebench_train_id_28_aspect_9",
             "evidencebench_train_id_28_aspect_10"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_28_aspect_8",
             "evidencebench_train_id_28_aspect_9",
             "evidencebench_train_id_28_aspect_10",
@@ -17973,7 +17973,7 @@
             "In conclusion, the findings of this study confirm the need for continuous monitoring and improved control of work-related exposures, both for prevention and workers\u2019 compensation purposes.",
             "Future occupational health studies should improve their ability to address interindividual variability in response to the lower exposures in work settings."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_29_aspect_0",
             "evidencebench_train_id_29_aspect_1",
             "evidencebench_train_id_29_aspect_2",
@@ -17986,7 +17986,7 @@
             "evidencebench_train_id_29_aspect_10",
             "evidencebench_train_id_29_aspect_11"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_29_aspect_6"
         ],
         "aspect2sentence_indices": {
@@ -18641,13 +18641,13 @@
             "In addition, we confirmed that SB as a negative control in the present study did not cause cytotoxicity.",
             "These observations suggest that the key to the safe use of CNTs is avoiding endocytosis and subsequent lysosomal and vacuolar injury."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_30_aspect_0",
             "evidencebench_train_id_30_aspect_1",
             "evidencebench_train_id_30_aspect_2",
             "evidencebench_train_id_30_aspect_3"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_30_aspect_2",
             "evidencebench_train_id_30_aspect_3"
         ],
@@ -19318,7 +19318,7 @@
             "Present addresses: American Cancer Society, Atlanta, GA (Y. Wang); Merck and Co., Inc., Upper Gwynedd, PA (R. Blanchard); Department of Epidemiology and Preventive Medicine, University of Maryland, Baltimore, MD (M. Baumgaren); Department of Obstetrics and Gynecology, Center for Women's Health, Oregon Health & Science University, Portland, OR (M. Berlin); and Johnson and Johnson, Pharmaceutical Research and Development, Titusville, NJ (J. A. Berlin).",
             "Manuscript received February 4, 2006 ; revised May 11, 2006 ; accepted July 25, 2006."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_31_aspect_0",
             "evidencebench_train_id_31_aspect_1",
             "evidencebench_train_id_31_aspect_2",
@@ -19328,7 +19328,7 @@
             "evidencebench_train_id_31_aspect_6",
             "evidencebench_train_id_31_aspect_7"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_31_aspect_6",
             "evidencebench_train_id_31_aspect_7"
         ],
@@ -20190,7 +20190,7 @@
             "During the cohort follow-up, the national pattern for lung cancer mortality is observed rather than the Kentucky trend.",
             "Such adjustment for regional behavioral risk factor prevalence is important with epidemiologic research to avoid a simple ecologic fallacy when studying a localized population, as a single industrial facility."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_32_aspect_0",
             "evidencebench_train_id_32_aspect_2",
             "evidencebench_train_id_32_aspect_3",
@@ -20214,7 +20214,7 @@
             "evidencebench_train_id_32_aspect_24",
             "evidencebench_train_id_32_aspect_26"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_32_aspect_10",
             "evidencebench_train_id_32_aspect_12",
             "evidencebench_train_id_32_aspect_15",
@@ -21059,7 +21059,7 @@
             "This research was sponsored by the Deanship of Scientific Research at The University of Jordan (grant: \"Circadian rhythm disruption as a predictor for cardiovascular risk\", No. 68/2013-2014).",
             "Principle investigator: Eman Alefishat, Ph.D."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_33_aspect_0",
             "evidencebench_train_id_33_aspect_1",
             "evidencebench_train_id_33_aspect_2",
@@ -21068,7 +21068,7 @@
             "evidencebench_train_id_33_aspect_5",
             "evidencebench_train_id_33_aspect_6"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_33_aspect_1",
             "evidencebench_train_id_33_aspect_2",
             "evidencebench_train_id_33_aspect_3"
@@ -21718,14 +21718,14 @@
             "This study was financially supported by Eurocetus B.V., The Netherlands, and the Netherlands Ministry of Economic Affairs.",
             "Address correspondence to Dr. C. de Groot, Laboratory for Cell Biology and Histology, Academic Medical Center, Meibergdreef 15, 1105 AZ Amsterdam, The Netherlands."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_34_aspect_0",
             "evidencebench_train_id_34_aspect_1",
             "evidencebench_train_id_34_aspect_2",
             "evidencebench_train_id_34_aspect_3",
             "evidencebench_train_id_34_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_34_aspect_2",
             "evidencebench_train_id_34_aspect_3",
             "evidencebench_train_id_34_aspect_4"
@@ -22349,12 +22349,12 @@
             "Address correspondence to Dr. J. M. M. Walboomers, Department of Pathology, Section of Molecular Pathology, Free University Hospital, De Boelelaan 1117, 1081 HV, The Netherlands.",
             "Received for publication 2 August 1993 and in revised form I8 October 1993."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_35_aspect_0",
             "evidencebench_train_id_35_aspect_1",
             "evidencebench_train_id_35_aspect_2"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_35_aspect_0",
             "evidencebench_train_id_35_aspect_1",
             "evidencebench_train_id_35_aspect_2"
@@ -22835,7 +22835,7 @@
             "This study was supported by the Confederation of Norwegian Business and Industry Work Environment Fund, the Scandinavian Rock Group ANS (SRG), Gardermobanen AS, and Rhodia PPMC.",
             "We thank Kjell Oscar Clausen, Vera Haugan, and Marit Svendsen for their skillful assistance."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_36_aspect_0",
             "evidencebench_train_id_36_aspect_1",
             "evidencebench_train_id_36_aspect_2",
@@ -22843,7 +22843,7 @@
             "evidencebench_train_id_36_aspect_4",
             "evidencebench_train_id_36_aspect_5"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_36_aspect_2",
             "evidencebench_train_id_36_aspect_3",
             "evidencebench_train_id_36_aspect_4",
@@ -23629,7 +23629,7 @@
             "It was shown that the rank order of heavy metals in canned fish based on THQ was As\u2009>\u2009Cd\u2009> Hg\u2009>\u2009Sb\u2009>\u2009Pb\u2009>\u2009Co\u2009>\u2009Ag\u2009>\u2009Sn. In the case of the canned meats, the THQ was at a considerably lower level, in the following rank order (decreasing values): Cd\u2009>\u2009Sb\u2009>\u2009Pb\u2009> Ag\u2009> As\u2009>\u2009Co\u2009> Hg\u2009> Sn. The value of THQ parameter for the analyzed elements in the canned foods was less than one, which means that there is no probability of unfavorable effects occurring.",
             "With reference to the applicable legal regulations regarding permissible levels of toxic elements in food, this study did not show that the concentration levels of these elements were exceeded."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_37_aspect_0",
             "evidencebench_train_id_37_aspect_1",
             "evidencebench_train_id_37_aspect_2",
@@ -23637,7 +23637,7 @@
             "evidencebench_train_id_37_aspect_4",
             "evidencebench_train_id_37_aspect_5"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_37_aspect_2",
             "evidencebench_train_id_37_aspect_3"
         ],
@@ -24424,7 +24424,7 @@
             "This work was supported by grant P42-ES05947 from the National Institute of Environmental Health Sciences (NIEHS) (S.K.).",
             "Its contents are solely the responsibility of the authors and do not necessarily represent the official views of the NIEHS."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_38_aspect_0",
             "evidencebench_train_id_38_aspect_1",
             "evidencebench_train_id_38_aspect_2",
@@ -24438,7 +24438,7 @@
             "evidencebench_train_id_38_aspect_11",
             "evidencebench_train_id_38_aspect_13"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_38_aspect_7",
             "evidencebench_train_id_38_aspect_8",
             "evidencebench_train_id_38_aspect_9",
@@ -25297,7 +25297,7 @@
             "The Tongliang coal-burning power plant was shut down without serious economic consequences to the city, and the energy needs formerly met by the plant were subsequently provided by power from the grid.",
             "Because coal-fired power plants currently produce 75% of China\u2019s electricity and most new plants are being built to burn coal, results from the Tongliang study have implications for the health of many other children in China."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_39_aspect_0",
             "evidencebench_train_id_39_aspect_1",
             "evidencebench_train_id_39_aspect_2",
@@ -25306,7 +25306,7 @@
             "evidencebench_train_id_39_aspect_5",
             "evidencebench_train_id_39_aspect_6"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_39_aspect_3",
             "evidencebench_train_id_39_aspect_4",
             "evidencebench_train_id_39_aspect_5",
@@ -25916,7 +25916,7 @@
             "ACKNOWLEDGEMENTS",
             "This study was supported in part by a Grant-in-Aid from the Ministry of Internal Affairs and Communications, Japan."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_40_aspect_0",
             "evidencebench_train_id_40_aspect_1",
             "evidencebench_train_id_40_aspect_2",
@@ -25926,7 +25926,7 @@
             "evidencebench_train_id_40_aspect_6",
             "evidencebench_train_id_40_aspect_7"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_40_aspect_4",
             "evidencebench_train_id_40_aspect_5",
             "evidencebench_train_id_40_aspect_7"
@@ -26555,7 +26555,7 @@
             "The support of the Finnish State Railways, Railways Board, and the personnel at the impregnation plant are gratefully acknowledged.",
             "We wish to thank Ms Mari Rothberg and Ms Tuula Karttunen for their skillful analytical assistance."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_41_aspect_0",
             "evidencebench_train_id_41_aspect_1",
             "evidencebench_train_id_41_aspect_2",
@@ -26567,7 +26567,7 @@
             "evidencebench_train_id_41_aspect_8",
             "evidencebench_train_id_41_aspect_9"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_41_aspect_4",
             "evidencebench_train_id_41_aspect_5",
             "evidencebench_train_id_41_aspect_6",
@@ -27309,14 +27309,14 @@
             "We further found higher levels of 8-oxoGuo in welders with detectable concentrations of Cr in welding fumes as well as in erythrocytes.",
             "Welders are exposed to a complex mixture of particles and redox-active metals where efficient ventilation and respiratory protection should be provided as preventive measure to reduce the exposure and oxidative stress."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_42_aspect_0",
             "evidencebench_train_id_42_aspect_1",
             "evidencebench_train_id_42_aspect_2",
             "evidencebench_train_id_42_aspect_3",
             "evidencebench_train_id_42_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_42_aspect_4"
         ],
         "aspect2sentence_indices": {
@@ -28151,7 +28151,7 @@
             "We thank K. Willett for the preliminary efforts necessary for this study.",
             "This work was supported in part by the U.S. Department of Defense, grant DAMD17-98-1-8011, to R.M.B."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_43_aspect_0",
             "evidencebench_train_id_43_aspect_1",
             "evidencebench_train_id_43_aspect_2",
@@ -28160,7 +28160,7 @@
             "evidencebench_train_id_43_aspect_5",
             "evidencebench_train_id_43_aspect_6"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_43_aspect_0"
         ],
         "aspect2sentence_indices": {
@@ -28829,7 +28829,7 @@
             "The data demonstrate the occurrence of HPV in nipple and areolar tissues in patients with breast carcinoma.",
             "The presence of papillomavirus DNA in most mamillae and concomitant breast carcinoma samples merits further investigation."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_44_aspect_0",
             "evidencebench_train_id_44_aspect_1",
             "evidencebench_train_id_44_aspect_2",
@@ -28839,7 +28839,7 @@
             "evidencebench_train_id_44_aspect_6",
             "evidencebench_train_id_44_aspect_7"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_44_aspect_0",
             "evidencebench_train_id_44_aspect_1",
             "evidencebench_train_id_44_aspect_2",
@@ -29535,7 +29535,7 @@
             "However, this finding should be interpreted with caution due to the limited number of ERN cases, so whether exposure to estrogenic organochlorine compounds affect the risk and prognosis of a hormone-responsive breast cancer needs to be clarified.",
             "Competing interests: None declared"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_45_aspect_0",
             "evidencebench_train_id_45_aspect_1",
             "evidencebench_train_id_45_aspect_2",
@@ -29544,7 +29544,7 @@
             "evidencebench_train_id_45_aspect_5",
             "evidencebench_train_id_45_aspect_6"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_45_aspect_2",
             "evidencebench_train_id_45_aspect_3",
             "evidencebench_train_id_45_aspect_4",
@@ -30139,7 +30139,7 @@
             "The authors would like to thank Dr Leroy Stevens of the Jackson Laboratory, Bar Harbor, Maine, for the donation of the mice of the 129 Sv-S 1 CP strain for this study.",
             "This work was supported by grants from the Division of Research Resources, National Institutes of Health (RR05356) and the American Cancer Society (SIG2A)."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_46_aspect_0",
             "evidencebench_train_id_46_aspect_1",
             "evidencebench_train_id_46_aspect_2",
@@ -30161,7 +30161,7 @@
             "evidencebench_train_id_46_aspect_21",
             "evidencebench_train_id_46_aspect_22"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_46_aspect_11",
             "evidencebench_train_id_46_aspect_15",
             "evidencebench_train_id_46_aspect_16",
@@ -30870,14 +30870,14 @@
             "We wish to thank A Ohrstrom and L Eng for 'their skillful technical assistance.",
             "The analysis of androstenedione metaborites by gas chromatography/mass spectrometry was kindly performed by Dr J Rafter at the Department of Medical Nutrition, Karolinska Institute."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_47_aspect_0",
             "evidencebench_train_id_47_aspect_1",
             "evidencebench_train_id_47_aspect_2",
             "evidencebench_train_id_47_aspect_3",
             "evidencebench_train_id_47_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_47_aspect_0",
             "evidencebench_train_id_47_aspect_1",
             "evidencebench_train_id_47_aspect_2",
@@ -31576,14 +31576,14 @@
             "We would like to thank Debbie Tsuyuki and Herb Edgecomb for technical assistance, M Grynpas for the cell line SAOS and H Rocheford for the cell line BG-1.",
             "We would also like to thank D Peehl for providing us with hydroxyflutamide and Roussel and Zeneca for other compounds listed in the text."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_48_aspect_0",
             "evidencebench_train_id_48_aspect_1",
             "evidencebench_train_id_48_aspect_2",
             "evidencebench_train_id_48_aspect_3",
             "evidencebench_train_id_48_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_48_aspect_0",
             "evidencebench_train_id_48_aspect_1",
             "evidencebench_train_id_48_aspect_2",
@@ -32371,7 +32371,7 @@
             "a",
             "a"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_49_aspect_0",
             "evidencebench_train_id_49_aspect_1",
             "evidencebench_train_id_49_aspect_2",
@@ -32400,7 +32400,7 @@
             "evidencebench_train_id_49_aspect_28",
             "evidencebench_train_id_49_aspect_29"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_49_aspect_22",
             "evidencebench_train_id_49_aspect_23",
             "evidencebench_train_id_49_aspect_24",
@@ -33407,7 +33407,7 @@
             "Although Figure 2 shows that the levels of Co and W in EBC and urine are factory dependent, the concentration of MDA in EBC is strongly associated with both Co and W levels in EBC, thus confirming the most recent understanding of hard metal lung disease as a consequence of the combined effects of these elements.",
             "In conclusion, the present study shows that EBC analysis is a promising matrix to assess the target tissue dose of pneumotoxic substances from polluted workplaces and to assess early effect markers, such as MDA."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_50_aspect_0",
             "evidencebench_train_id_50_aspect_1",
             "evidencebench_train_id_50_aspect_2",
@@ -33416,7 +33416,7 @@
             "evidencebench_train_id_50_aspect_5",
             "evidencebench_train_id_50_aspect_6"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_50_aspect_4",
             "evidencebench_train_id_50_aspect_5"
         ],
@@ -34142,13 +34142,13 @@
             "ser shields.",
             "Int. J. Occup. Saf. Ergon. 2008;14(2):133-147"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_51_aspect_0",
             "evidencebench_train_id_51_aspect_1",
             "evidencebench_train_id_51_aspect_2",
             "evidencebench_train_id_51_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_51_aspect_4"
         ],
         "aspect2sentence_indices": {
@@ -34954,14 +34954,14 @@
             "Abbreviations: df, degrees of freedom; E, equal variance; U, unequal variance.",
             "VOLUME 110 | NUMBER 1 | January 2002 \u2022 Environmental Health Perspectives"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_52_aspect_0",
             "evidencebench_train_id_52_aspect_1",
             "evidencebench_train_id_52_aspect_2",
             "evidencebench_train_id_52_aspect_3",
             "evidencebench_train_id_52_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_52_aspect_1",
             "evidencebench_train_id_52_aspect_3",
             "evidencebench_train_id_52_aspect_4"
@@ -35585,7 +35585,7 @@
             "Acknowledgments",
             "The Lundbeck Foundation is thanked for its financial support."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_53_aspect_0",
             "evidencebench_train_id_53_aspect_1",
             "evidencebench_train_id_53_aspect_2",
@@ -35594,7 +35594,7 @@
             "evidencebench_train_id_53_aspect_5",
             "evidencebench_train_id_53_aspect_6"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_53_aspect_3",
             "evidencebench_train_id_53_aspect_5"
         ],
@@ -36001,12 +36001,12 @@
             "This work was conducted with the contribution of the Italian Association for Cancer Research, Milan, Italy and the Swiss Foundation for Research Against Cancer.",
             "The authors thank Mrs M Paola Bonifacino for editorial assistance."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_54_aspect_0",
             "evidencebench_train_id_54_aspect_1",
             "evidencebench_train_id_54_aspect_2"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_54_aspect_0",
             "evidencebench_train_id_54_aspect_1",
             "evidencebench_train_id_54_aspect_2"
@@ -36363,7 +36363,7 @@
             "Disclaimer",
             "The findings and conclusions in this report are those of the authors and do not necessarily represent the views of the National Institute for Occupational Safety and Health."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_55_aspect_0",
             "evidencebench_train_id_55_aspect_1",
             "evidencebench_train_id_55_aspect_2",
@@ -36373,7 +36373,7 @@
             "evidencebench_train_id_55_aspect_6",
             "evidencebench_train_id_55_aspect_7"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_55_aspect_5",
             "evidencebench_train_id_55_aspect_6",
             "evidencebench_train_id_55_aspect_7"
@@ -37121,14 +37121,14 @@
             "This work was performed in part at the Lawrence Livermore National Laboratory under the auspices of the U.S. Department of.",
             "Energy contract W- 7405-Eng-48."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_56_aspect_1",
             "evidencebench_train_id_56_aspect_2",
             "evidencebench_train_id_56_aspect_3",
             "evidencebench_train_id_56_aspect_4",
             "evidencebench_train_id_56_aspect_5"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_56_aspect_4",
             "evidencebench_train_id_56_aspect_5"
         ],
@@ -37836,11 +37836,11 @@
             "Further studies are needed that collect multiple measurements over longer periods of time to more fully understand the dynamic relationship between welding fume exposures and DNA methylation.",
             "These studies should also measure blood cell mixture to determine if the changes in DNA methylation are true epigenetic effects or a function of inflammation."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_57_aspect_0",
             "evidencebench_train_id_57_aspect_1"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_57_aspect_0"
         ],
         "aspect2sentence_indices": {
@@ -38357,7 +38357,7 @@
             "A small but clear linear association between PFOA and PFOS serum concentrations and ALT, a marker of hepatocellular injury, was observed in this large population-based sample of individuals with exposure to PFAAs.",
             "These results are consistent with previous findings and warrant further investigation, in particular on the potential health consequence of long-term exposure and potential -accumulation of damage."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_58_aspect_0",
             "evidencebench_train_id_58_aspect_1",
             "evidencebench_train_id_58_aspect_2",
@@ -38365,7 +38365,7 @@
             "evidencebench_train_id_58_aspect_4",
             "evidencebench_train_id_58_aspect_5"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_58_aspect_4",
             "evidencebench_train_id_58_aspect_5"
         ],
@@ -38971,7 +38971,7 @@
             "Although MCV is more prevalent in MCC than in SCC, the number of SCC cases potentially attributed to MCV in the general population is far greater than that of MCC, given that close to 1 million SCC cases are diagnosed each year in the United States in contrast to 1,500 cases of MCC.",
             "If MCV is shown to play a role in SCC carcinogenesis, then this polyomavirus may be a novel target for primary prevention through vaccination."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_59_aspect_2",
             "evidencebench_train_id_59_aspect_3",
             "evidencebench_train_id_59_aspect_4",
@@ -38996,7 +38996,7 @@
             "evidencebench_train_id_59_aspect_23",
             "evidencebench_train_id_59_aspect_24"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_59_aspect_5",
             "evidencebench_train_id_59_aspect_6",
             "evidencebench_train_id_59_aspect_7",
@@ -39897,12 +39897,12 @@
             "The alignment points out Lys173 of EchA as a possible candidate, but also the two nearby positioned Lys residues 174 and 177 could perform the role as proton donor.",
             "The role of Lys173, Lys174, and Lys177 is currently studied further by site-directed mutagenesis and fluorescence spectroscopy."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_60_aspect_0",
             "evidencebench_train_id_60_aspect_1",
             "evidencebench_train_id_60_aspect_3"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_60_aspect_0",
             "evidencebench_train_id_60_aspect_1",
             "evidencebench_train_id_60_aspect_3"
@@ -40658,7 +40658,7 @@
             "We further interviewed a special group of 64 inpatient referents (who had to undergo surgical operations for suspected lung cancer and were treated as lung cancer cases at the interviews, but eventually were diagnosed as not suffering from lung cancer) who showed a lower proportion of occupational exposures than the confirmed lung cancer cases, suggesting that any interviewer or recall bias was not a major issue.",
             "Our study found that men employed as \u2018bricklayers, carpenters, and other construction workers\u2019 and those who had ever been occupationally exposed to silica dust, diesel exhaust, and painting work were associated with an increased risk of all lung cancers, and the effects were independent of smoking."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_61_aspect_0",
             "evidencebench_train_id_61_aspect_1",
             "evidencebench_train_id_61_aspect_2",
@@ -40679,7 +40679,7 @@
             "evidencebench_train_id_61_aspect_19",
             "evidencebench_train_id_61_aspect_20"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_61_aspect_16",
             "evidencebench_train_id_61_aspect_19",
             "evidencebench_train_id_61_aspect_20",
@@ -41450,12 +41450,12 @@
             "We used genetic mapping analysis of DO mice to identify a locus on Chr 10 that is associated with benzene-induced genotoxicity.",
             "Analysis of gene expression and genomic sequencing data provide evidence in support of sulfotransferases as candidate genes underlying the QTL effect."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_62_aspect_0",
             "evidencebench_train_id_62_aspect_1",
             "evidencebench_train_id_62_aspect_2"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_62_aspect_0",
             "evidencebench_train_id_62_aspect_1"
         ],
@@ -42442,13 +42442,13 @@
             "We thank our participants, the staff of the three laboratories, and the research staff of the Center for Behavioral Epidemiology and Community Health: Aimen Khalil, MD, Jodi Kudas, Dana Dorman, and Jan Rivera.",
             "reFerenCes"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_63_aspect_0",
             "evidencebench_train_id_63_aspect_1",
             "evidencebench_train_id_63_aspect_2",
             "evidencebench_train_id_63_aspect_3"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_63_aspect_3"
         ],
         "aspect2sentence_indices": {
@@ -43356,14 +43356,14 @@
             "Although our study cannot provide proof for a causal relationship, our data are in line with results from animal studies.",
             "Thus, prenatal exposure to persistent organochlorine pesticides may adversely affect testicular descent in boys."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_64_aspect_0",
             "evidencebench_train_id_64_aspect_1",
             "evidencebench_train_id_64_aspect_2",
             "evidencebench_train_id_64_aspect_3",
             "evidencebench_train_id_64_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_64_aspect_1"
         ],
         "aspect2sentence_indices": {
@@ -44088,14 +44088,14 @@
             "Possible reasons for the regional contrasts are discussed.",
             "* Occupational pneumoconiosis without tuberculosis."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_65_aspect_0",
             "evidencebench_train_id_65_aspect_1",
             "evidencebench_train_id_65_aspect_2",
             "evidencebench_train_id_65_aspect_3",
             "evidencebench_train_id_65_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_65_aspect_0",
             "evidencebench_train_id_65_aspect_3",
             "evidencebench_train_id_65_aspect_4"
@@ -44550,7 +44550,7 @@
             "The authors thank the women who participated in this study; Eric Grant, Yukiko Hayashi, and Hiroko Moriwaki for data management and analyses; and Dr Dale Preston for assisting with the preparation of the data and commenting on the manuscript.",
             "TJ Key, PN Appleby, and V Beral were supported by the Imperial Cancer Research Fund, UK."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_66_aspect_0",
             "evidencebench_train_id_66_aspect_1",
             "evidencebench_train_id_66_aspect_2",
@@ -44567,7 +44567,7 @@
             "evidencebench_train_id_66_aspect_14",
             "evidencebench_train_id_66_aspect_15"
         ],
-        "results_aspect_list_anonymized": null,
+        "results_aspect_list_ids": null,
         "aspect2sentence_indices": {
             "evidencebench_train_id_66_aspect_0": [
                 2,
@@ -45367,12 +45367,12 @@
             "Tensile test was conducted on five undoped and five doped cables using an electrodynamic test system (Electroplus 3000, Instron).",
             "The strain rate was set at 0.2%/S."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_67_aspect_0",
             "evidencebench_train_id_67_aspect_1",
             "evidencebench_train_id_67_aspect_2"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_67_aspect_1",
             "evidencebench_train_id_67_aspect_2"
         ],
@@ -45904,7 +45904,7 @@
             "We thank members of the BIBRA Animal Unit for treating the animals, members of the Pathology Department for performing the necropsies and Matthew Law for statistical analyses.",
             "This study was supported by the Cancer Research Campaign and the Medical Research Council and by Grant No. CA21959 from the US National Cancer Institute."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_68_aspect_0",
             "evidencebench_train_id_68_aspect_1",
             "evidencebench_train_id_68_aspect_2",
@@ -45916,7 +45916,7 @@
             "evidencebench_train_id_68_aspect_9",
             "evidencebench_train_id_68_aspect_10"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_68_aspect_5",
             "evidencebench_train_id_68_aspect_6",
             "evidencebench_train_id_68_aspect_7",
@@ -46480,7 +46480,7 @@
             "Acknowledgments",
             "We are grateful to Dr. Zajac-Kaye Maria (NCI, National Institutes of Health) for kindly providing the human c-Myc cDNA."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_69_aspect_0",
             "evidencebench_train_id_69_aspect_1",
             "evidencebench_train_id_69_aspect_2",
@@ -46488,7 +46488,7 @@
             "evidencebench_train_id_69_aspect_4",
             "evidencebench_train_id_69_aspect_5"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_69_aspect_0",
             "evidencebench_train_id_69_aspect_1",
             "evidencebench_train_id_69_aspect_3",
@@ -47433,14 +47433,14 @@
             "The NTP- recommended nomenclature for rodent ovarian neo- plasms is based on the cell of origin of the neoplasms.",
             "Tumors arising from diverse cells of origin should not be combined for purposes of assessing carcinogenicity."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_70_aspect_0",
             "evidencebench_train_id_70_aspect_1",
             "evidencebench_train_id_70_aspect_2",
             "evidencebench_train_id_70_aspect_3",
             "evidencebench_train_id_70_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_70_aspect_3",
             "evidencebench_train_id_70_aspect_4"
         ],
@@ -47993,7 +47993,7 @@
             "CB-138 (3-4 years) and CB-105 and CB-118 (about 5 years) clearly had shorter half-lives.",
             "No indication was found that half-lives in children aged 4-14 years are shorter than in adults, thus supporting the notion that fecal fat elimination may represent a fairly constant proportion in regard to body size."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_71_aspect_0",
             "evidencebench_train_id_71_aspect_1",
             "evidencebench_train_id_71_aspect_2",
@@ -48007,7 +48007,7 @@
             "evidencebench_train_id_71_aspect_10",
             "evidencebench_train_id_71_aspect_11"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_71_aspect_5",
             "evidencebench_train_id_71_aspect_6",
             "evidencebench_train_id_71_aspect_7",
@@ -48804,12 +48804,12 @@
             "Opinions, interpretations, conclusions, and recommendations are those of the author and are not necessarily endorsed by the U.S. Army.",
             "Citations of commercial organizations or trade names in this report do not constitute an official Department of the Army endorsement or approval of the products or services of these organizations."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_72_aspect_0",
             "evidencebench_train_id_72_aspect_1",
             "evidencebench_train_id_72_aspect_2"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_72_aspect_0",
             "evidencebench_train_id_72_aspect_1"
         ],
@@ -49755,7 +49755,7 @@
             "This manuscript has been reviewed in accordance with U.S. EPA policy, and approved for publication.",
             "Approval does not signify that the contents necessarily reflect the views and policies of the U.S. EPA."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_73_aspect_0",
             "evidencebench_train_id_73_aspect_1",
             "evidencebench_train_id_73_aspect_2",
@@ -49764,7 +49764,7 @@
             "evidencebench_train_id_73_aspect_5",
             "evidencebench_train_id_73_aspect_6"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_73_aspect_1",
             "evidencebench_train_id_73_aspect_5"
         ],
@@ -50779,13 +50779,13 @@
             "We thank Jan van Riel and Kees Olieman for trisulfide analysis; Nicole de Wit for discussions; Jenny Jansen, Shohreh Keshtkar, Arjan Schonewille, Rob Dekker, Sandra ten Bruggencate, and Bert Weijers for technical assistance; and Dicky Lindenbergh-Kortleve and Janneke Samsom for Slpi immunohistochemistry.",
             "This work was financially supported by Top Institute Food and Nutrition Grant A-1001 (Wageningen, The Netherlands)."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_74_aspect_0",
             "evidencebench_train_id_74_aspect_1",
             "evidencebench_train_id_74_aspect_2",
             "evidencebench_train_id_74_aspect_3"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_74_aspect_3"
         ],
         "aspect2sentence_indices": {
@@ -51717,11 +51717,11 @@
             "How to cite this article: Manzella, N. et al. Circadian Modulation of 8-Oxoguanine DNA Damage Repair.",
             "Sci. Rep. 5, 13752; doi: 10.1038/srep13752 (2015)."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_75_aspect_0",
             "evidencebench_train_id_75_aspect_1"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_75_aspect_0"
         ],
         "aspect2sentence_indices": {
@@ -52419,13 +52419,13 @@
             "Since the use of cell lines allows longer experiments, and since cell lines may in some instances be less sensitive to xenobiotics than primary cultures, this system with R and Dig1 constitutes an interesting tool for studying liver intoxication and detoxification.",
             "The activity of Dig1 should be now also tested in vivo in animal experiments."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_76_aspect_0",
             "evidencebench_train_id_76_aspect_1",
             "evidencebench_train_id_76_aspect_2",
             "evidencebench_train_id_76_aspect_3"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_76_aspect_0",
             "evidencebench_train_id_76_aspect_1",
             "evidencebench_train_id_76_aspect_2"
@@ -53170,14 +53170,14 @@
             "Acknowledgments",
             "We thank A. P. Grollman for his encouragement and support, F. Johnson and M. C. Torres for synthesizing modified oligonucleotides, R. Woodgate and P.A. Fisher for generous gifts of pol \u03b9 and PCNA, respectively, and M. Cordeiro-Stone and J. E. Cleaver for providing XPV cell lines."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_77_aspect_0",
             "evidencebench_train_id_77_aspect_1",
             "evidencebench_train_id_77_aspect_2",
             "evidencebench_train_id_77_aspect_3",
             "evidencebench_train_id_77_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_77_aspect_3",
             "evidencebench_train_id_77_aspect_4"
         ],
@@ -53889,7 +53889,7 @@
             "The estimated effect of NO2 persisted after adjusting for PM2.5, and the shapes of the concentration response for both pollutants showed no evidence of deviation from linearity for all causes except IHD.",
             "European policy decisions regarding environment and public health should be made with consideration of the specific scientific research results on the health effects of air pollution, such as those provided here."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_78_aspect_1",
             "evidencebench_train_id_78_aspect_2",
             "evidencebench_train_id_78_aspect_3",
@@ -53905,7 +53905,7 @@
             "evidencebench_train_id_78_aspect_18",
             "evidencebench_train_id_78_aspect_19"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_78_aspect_14",
             "evidencebench_train_id_78_aspect_16",
             "evidencebench_train_id_78_aspect_17",
@@ -54724,13 +54724,13 @@
             "No potential conflicts of interest were disclosed.",
             "Authors' Contributions"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_79_aspect_0",
             "evidencebench_train_id_79_aspect_1",
             "evidencebench_train_id_79_aspect_3",
             "evidencebench_train_id_79_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_79_aspect_4"
         ],
         "aspect2sentence_indices": {
@@ -55475,12 +55475,12 @@
             "We thank C. Rouzer for a critical reading of the manuscript.",
             "We are very grateful to M. Moriya and C. de los Santos for sharing the results of their experiments with HOPdG prior to publication."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_80_aspect_0",
             "evidencebench_train_id_80_aspect_1",
             "evidencebench_train_id_80_aspect_3"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_80_aspect_3"
         ],
         "aspect2sentence_indices": {
@@ -56132,14 +56132,14 @@
             "The NTP- recommended nomenclature for rodent ovarian neo- plasms is based on the cell of origin of the neoplasms.",
             "Tumors arising from diverse cells of origin should not be combined for purposes of assessing carcinogenicity."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_81_aspect_0",
             "evidencebench_train_id_81_aspect_1",
             "evidencebench_train_id_81_aspect_2",
             "evidencebench_train_id_81_aspect_3",
             "evidencebench_train_id_81_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_81_aspect_0",
             "evidencebench_train_id_81_aspect_1",
             "evidencebench_train_id_81_aspect_2",
@@ -56855,7 +56855,7 @@
             "In each arm, after verifying that carryover effects were unimportant (p>0.25), we estimated the mean response for each diet using a model that included random effects of subject, period, and residual error.",
             "We report model-based estimates and confidence limits for mean TM for each diet."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_82_aspect_0",
             "evidencebench_train_id_82_aspect_1",
             "evidencebench_train_id_82_aspect_2",
@@ -56863,7 +56863,7 @@
             "evidencebench_train_id_82_aspect_4",
             "evidencebench_train_id_82_aspect_5"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_82_aspect_0"
         ],
         "aspect2sentence_indices": {
@@ -57762,7 +57762,7 @@
             "We are grateful for the kind assistance given us by the indus- trial physicians at the two factories, Drs. A. Rogenfelt and S. Johansson, as well as the Swedish Cancer Registry office and county offices.",
             "The assistance with computer programming and operation by Mr. Norman Barlev is also acknowledged."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_83_aspect_0",
             "evidencebench_train_id_83_aspect_1",
             "evidencebench_train_id_83_aspect_2",
@@ -57770,7 +57770,7 @@
             "evidencebench_train_id_83_aspect_4",
             "evidencebench_train_id_83_aspect_5"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_83_aspect_2",
             "evidencebench_train_id_83_aspect_3",
             "evidencebench_train_id_83_aspect_4",
@@ -58679,7 +58679,7 @@
             "The statistical analysis of the data in part three (CB, C60, SWCNT, and Au) and four (QDs) were carried out with one-factor ANOVA tests and the type of particles as categorical variable.",
             "The statistical analysis was performed in Statistica 2002 for Windows (StatSoft, Uppsala, Sweden)."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_84_aspect_0",
             "evidencebench_train_id_84_aspect_1",
             "evidencebench_train_id_84_aspect_2",
@@ -58687,7 +58687,7 @@
             "evidencebench_train_id_84_aspect_4",
             "evidencebench_train_id_84_aspect_5"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_84_aspect_3",
             "evidencebench_train_id_84_aspect_4",
             "evidencebench_train_id_84_aspect_5"
@@ -59879,7 +59879,7 @@
             "In conclusion, VC was found in ambient air around VC production plants, PVC production plants and PVC fabrication plants.",
             "However, the data show that much less VC escapes into surrounding air from PVC fabricating plants than from VC and PVC production plants."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_85_aspect_0",
             "evidencebench_train_id_85_aspect_1",
             "evidencebench_train_id_85_aspect_2",
@@ -59887,7 +59887,7 @@
             "evidencebench_train_id_85_aspect_5",
             "evidencebench_train_id_85_aspect_6"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_85_aspect_2",
             "evidencebench_train_id_85_aspect_3",
             "evidencebench_train_id_85_aspect_5",
@@ -60367,7 +60367,7 @@
             "It has been known for some time that maternal alcohol consumption during pregnancy can cause FAS or its less severe manifestation, foetal alcohol effects in the offspring.",
             "The fact that maternal alcohol intake at levels that are considerable lower than those inducing FAS might also increase daughter's breast cancer risk gives further weight to the recommendation that women should avoid consuming alcohol during pregnancy."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_86_aspect_0",
             "evidencebench_train_id_86_aspect_1",
             "evidencebench_train_id_86_aspect_2",
@@ -60378,7 +60378,7 @@
             "evidencebench_train_id_86_aspect_7",
             "evidencebench_train_id_86_aspect_8"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_86_aspect_8",
             "evidencebench_train_id_86_aspect_4",
             "evidencebench_train_id_86_aspect_6",
@@ -60993,7 +60993,7 @@
             "Similar figures for HPV 18 were 17% and 20%, respectively.",
             "In summary, this study provides prospective epidemiological evidence indicating that infection with HPV 16 and also HPV 18 does increase the risk for subsequent development of anal and perianal skin cancer."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_87_aspect_0",
             "evidencebench_train_id_87_aspect_1",
             "evidencebench_train_id_87_aspect_2",
@@ -61007,7 +61007,7 @@
             "evidencebench_train_id_87_aspect_10",
             "evidencebench_train_id_87_aspect_11"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_87_aspect_4",
             "evidencebench_train_id_87_aspect_5",
             "evidencebench_train_id_87_aspect_6",
@@ -61563,7 +61563,7 @@
             "Acknowledgments",
             "We thank Ms L Pothier and Ms J He ld for their statistical as sistance, Ms J Howland and Ms C Cedillo for typing the manuscript, and Mr C Moseley who was the NIOSH Project Officer."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_88_aspect_0",
             "evidencebench_train_id_88_aspect_1",
             "evidencebench_train_id_88_aspect_3",
@@ -61574,7 +61574,7 @@
             "evidencebench_train_id_88_aspect_9",
             "evidencebench_train_id_88_aspect_10"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_88_aspect_8",
             "evidencebench_train_id_88_aspect_9",
             "evidencebench_train_id_88_aspect_10",
@@ -62171,14 +62171,14 @@
             "However, this is the first report of these associations in humans; thus, additional research is necessary to substantiate the observed findings.",
             "Future studies must also consider oxidative DEHP metabolites relative to MEHP as a potential marker of metabolic susceptibility to DEHP exposure."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_89_aspect_0",
             "evidencebench_train_id_89_aspect_1",
             "evidencebench_train_id_89_aspect_2",
             "evidencebench_train_id_89_aspect_3",
             "evidencebench_train_id_89_aspect_4"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_89_aspect_3",
             "evidencebench_train_id_89_aspect_4"
         ],
@@ -62816,7 +62816,7 @@
             "* s; EHZ",
             "We should like to thank Mr H. Hainey and Mrs C. Hemming who performed many of the intratracheal instillations and who were responsible for the animal husbandry, Mr T. Smith who was responsible for the preparation of the smoke condensates and fractions and also Mrs E. A. McFarlane for assistance with the organization and collection of the data from the experiments."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_90_aspect_0",
             "evidencebench_train_id_90_aspect_1",
             "evidencebench_train_id_90_aspect_3",
@@ -62829,7 +62829,7 @@
             "evidencebench_train_id_90_aspect_11",
             "evidencebench_train_id_90_aspect_12"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_90_aspect_5",
             "evidencebench_train_id_90_aspect_6",
             "evidencebench_train_id_90_aspect_7",
@@ -63483,13 +63483,13 @@
             "The results of our research indicate that smoking may be one of the environmental determinants of the methylation status of the promoter region in the BRCA1 gene.",
             "Given the novelty of these findings, and limitations resulting from the relatively small number of subjects in subgroup analyses further validation research is warranted."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_91_aspect_0",
             "evidencebench_train_id_91_aspect_1",
             "evidencebench_train_id_91_aspect_2",
             "evidencebench_train_id_91_aspect_3"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_91_aspect_3"
         ],
         "aspect2sentence_indices": {
@@ -64244,13 +64244,13 @@
             "We thank Gary J. Baker for providing Figure 6.",
             "J. Pathol. 152: 99-107(1987)."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_92_aspect_0",
             "evidencebench_train_id_92_aspect_1",
             "evidencebench_train_id_92_aspect_2",
             "evidencebench_train_id_92_aspect_3"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_92_aspect_0",
             "evidencebench_train_id_92_aspect_1",
             "evidencebench_train_id_92_aspect_2",
@@ -64934,7 +64934,7 @@
             "Acknowledgments",
             "We thank Ms R Barnes, Mr P Norman, and Mr M Merwood for their help with the data collection and analysis, and the staff of the NHS Central Register and National Insurance Index, who carried out the tracing."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_93_aspect_0",
             "evidencebench_train_id_93_aspect_2",
             "evidencebench_train_id_93_aspect_3",
@@ -64960,7 +64960,7 @@
             "evidencebench_train_id_93_aspect_23",
             "evidencebench_train_id_93_aspect_24"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_93_aspect_7",
             "evidencebench_train_id_93_aspect_8",
             "evidencebench_train_id_93_aspect_9",
@@ -65866,7 +65866,7 @@
             "Volume 106,Number  8, August 1998 * Environmental Health Perspectives",
             "Volume 106, Number 8, August 1998 * Environmental Health Perspectives"
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_94_aspect_0",
             "evidencebench_train_id_94_aspect_1",
             "evidencebench_train_id_94_aspect_2",
@@ -65897,7 +65897,7 @@
             "evidencebench_train_id_94_aspect_38",
             "evidencebench_train_id_94_aspect_39"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_94_aspect_34",
             "evidencebench_train_id_94_aspect_35",
             "evidencebench_train_id_94_aspect_36",
@@ -67190,7 +67190,7 @@
             "Biomass fuels are a source of energy for households and small commercial purposes in urban sub-Saharan Africa, especially in low-income and marginalized neighborhoods; older vehicles are also common in sub-Saharan African cities.",
             "If other studies in Accra and other developing country cities show that the effects of these common sources on local pollution observed in our measurement campaign are typical of their usual contributions, there is need to identify and implement effective and equitable transportation regulations and policies that reduce the impacts of traffic pollution, and technological and policy innovations that can reduce air pollution from biomass fuels without restricting what may be the only energy source available to poor households."
         ],
-        "aspect_list_anonymized": [
+        "aspect_list_ids": [
             "evidencebench_train_id_95_aspect_0",
             "evidencebench_train_id_95_aspect_1",
             "evidencebench_train_id_95_aspect_2",
@@ -67201,7 +67201,7 @@
             "evidencebench_train_id_95_aspect_7",
             "evidencebench_train_id_95_aspect_8"
         ],
-        "results_aspect_list_anonymized": [
+        "results_aspect_list_ids": [
             "evidencebench_train_id_95_aspect_4",
             "evidencebench_train_id_95_aspect_5",
             "evidencebench_train_id_95_aspect_6",
