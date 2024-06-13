@@ -13,8 +13,8 @@ EvidenceBench uses a train, dev, test split. All three subsets have the same str
 Each data instance has the following features, represented as JSON keys:
 - `hypothesis`: string format, the main query, the biomedical hypothesis.
 - `paper_as_candidate_pool`: an ordered tuple of strings. Each string is one sentence from the paper. Note, the indices of these sentences are given by the ordered tuple. You should never change the tuple in any way, such as shuffling. This serves as the candidate pool for all of the evidence retrieval tasks and results evidence retrieval, where a model is tasked to select the most representative sentences from the candidate pool such that these sentences form effective sentence for or against the hypothesis.
-- `aspect_list_anonymized`: a list of strings, each string is an aspect. Aspects are anonymized to protect copyright of survey monographs. Each aspect has the following format, `evidencebench_test_id_n_aspect_m` where n, m are integers.
-- `results_aspect_list_anonymized`: a list of strings, each string is an aspect that is labeled as "Results", which means related to experiment outcome and analyses.
+- `aspect_list_ids`: a list of strings, each string is an aspect. Each aspect has the following format, `evidencebench_test_id_n_aspect_m` where n, m are integers.
+- `results_aspect_list_ids`: a list of strings, each string is an aspect that is labeled as "Results", which means related to experiment outcome and analyses.
 - `aspect2sentence_indices`: a mapping (i.e. dictionary) between aspect and all sentence indices that independently are source of information for that aspect, as annotated by our automatic alignment procedure.
 - `sentence_index2aspects`: a mapping (i.e. dictionary) between sentence index and all aspects that this sentence is the source of information of.
 - `evidence_retrieval_at_optimal_evaluation`: This is a dictionary that contains the necessary information for evaluating your model's performance on the task Evidence Retrieval @Optimal.
