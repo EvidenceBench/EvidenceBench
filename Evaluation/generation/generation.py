@@ -213,7 +213,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     
-    with open("/data/Elsevier/Evaluation_copy/generation/model_price.json", 'r') as f:
+    with open("/generation/model_price.json", 'r') as f:
         model_price = json.load(f)
 
     if args.with_images == "True" and args.multi_turn == "True":
