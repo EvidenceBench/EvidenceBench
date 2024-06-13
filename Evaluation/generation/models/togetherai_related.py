@@ -26,7 +26,7 @@ def togetherai_generation_multi_turn(prompt,model,temperature=0,max_tokens=1024,
     if type(prompt) is not dict or 'conversation' not in prompt.keys():
         raise ValueError("For multiple turn case, the prompt dict provided is not in correct format")
     
-    client = Together(api_key="ab4be9d6521a6d0e6740c1d8cf3d1168793f110136e5ebba2b72302fcf3a94a9")
+    client = Together(api_key=together_ai_key)
 
     conversation = prompt['conversation']
 
