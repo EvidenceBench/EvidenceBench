@@ -12,10 +12,10 @@ EvidenceBench uses a train, dev, test split. All three subsets have the same str
 
 Each data instance has the following features, represented as JSON keys:
 - `hypothesis`: string format, the main query, the biomedical hypothesis.
-- `paper_as_candidate_pool`: an ordered tuple of strings. Each string is one sentence from the paper. Note, the indices of these sentences are given by the ordered tuple. You should never change the tuple in any way, such as shuffling. This serves as the candidate pool for all of the evidence retrieval tasks and results evidence retrieval, where a model is tasked to select the most representative sentences from the candidate pool such that these sentences form effective sentence for or against the hypothesis.
+- `paper_as_candidate_pool`: an ordered tuple of strings. Each string is one sentence from the paper. Note, the tuple order matches the order of sentences in the paper.
 - `aspect_list_ids`: a list of strings, each string is an aspect. Each aspect has the following format, `evidencebench_test_id_n_aspect_m` where n, m are integers.
-- `results_aspect_list_ids`: a list of strings, each string is an aspect that is labeled as "Results", which means related to experiment outcome and analyses.
-- `aspect2sentence_indices`: a mapping (i.e. dictionary) between aspect and all sentence indices that independently are source of information for that aspect, as annotated by our automatic alignment procedure.
+- `results_aspect_list_ids`: a list of strings, each string is an aspect that is labeled as "Results", which means related to experimental outcomes and analyses.
+- `aspect2sentence_indices`: a mapping (i.e. dictionary) between aspect and all sentence indices that independently are source of information for that aspect.
 - `sentence_index2aspects`: a mapping (i.e. dictionary) between sentence index and all aspects that this sentence is the source of information of.
 - `evidence_retrieval_at_optimal_evaluation`: This is a dictionary that contains the necessary information for evaluating your model's performance on the task Evidence Retrieval @Optimal.
   - `optimal`: A positive integer, which is the smallest number of sentences needed to cover the largest number of aspects.
@@ -24,7 +24,7 @@ Each data instance has the following features, represented as JSON keys:
 - `evidence_retrieval_at_10_evaluation`: This is a dictionary that contains the necessary information for evaluating your model's performance on the task Evidence Retrieval @10.
   - `one_selection_of_sentences`: a list of sentence indices. The list size is 10. The list of sentences covers the largest number of aspects that can be covered under the restriction of 10 sentences. Note, there are potentially other lists of sentences that have size 10 and cover the same number of aspects.
   - `covered_aspects`: the list of aspects that are covered. In this case, this list of aspects may not be all the aspects. Since in the paper, we calculate aspect recall by dividing the number of aspects covered by the model's retrieved sentences against the total number of aspects, for ER @10, the maximum possible performance is not 100%.
-- `results_evidence_retrieval_at_optimal_evaluation`: This is a dictionary that contains the necessary information for evaluating your model's performance on the task Results Evidence Retrieval @Optimal.
+- `results_evidence_retrieval_at_optimal_evaluation`: This is a dictionary that contains the necessary information for evaluating a model's performance on the task Results Evidence Retrieval @Optimal.
   - `optimal`: A positive integer, which is the smallest number of sentences needed to cover the largest number of aspects labeled as "Results".
   - `one_selection_of_sentences`: see above
   - `covered_aspects`: the list of "Results" aspects that are covered. In this case, the list of "Results" aspects is all the "Results" aspects.
@@ -34,12 +34,33 @@ Each data instance has the following features, represented as JSON keys:
 - `sentence_types_in_candidate_pool`: a tuple of strings, each string is a sentence type. There are three possible sentence types: section_name, abstract, and normal_paragraph. If the third string is 'abstract' that means the third sentence (sentence index =2) has sentence type 'abstract', i.e., it is a sentence that comes from the abstract.
 - `paper_id`: the id of the paper used as the candidate pool.
 
-Note, the train set and dev set have exactly the same structure. To download or to view EvidenceBench datasets, refer to our Github.
+Note, the train set and dev set have exactly the same structure. The dataset is available for download in this repository.
 
 
 ## Evaluation
 
 We provide code for end-to-end evaluation on our benchmark using text embedding models or text generation models. The current pipeline supports all the embedding and generation models mentioned in our paper.
+
+
+
+### Evaluation with Generation Models
+
+
+To run the evaluation for generation models, use the following command:
+
+```bash
+cd Evaluation
+bash end_to_end_eval.sh <dataset_path> <max_tokens> <prompt_template_name> <model_name> <exp_name> -1 <limits> <regeneration> False
+```
+
+Most of the arguments are same as the embedding model case.
+
+`<prompt_template_name>` The prompt template to use for generation.
+
+`<regeneration>` A boolean indicating whether the model will regenerate if it retrieves more than the specified number of sentences.
+
+The results of both `embedding_pipeline.sh` and `end_to_end_eval.sh` will be recorded in `Evaluation/post_process/logs.csv` under the specified `exp_name`.
+
 
 ### Evaluation with Embedding Models
 
@@ -65,23 +86,4 @@ bash embedding_pipeline.sh <dataset_path> <instruction_template_name> <model_nam
 `<cuda>`: A string specifying which CUDA devices to use for local embedding models, e.g., `"0,1,2"` or `"0"`.
 
 `<batch_size>`: The batch size for local embedding models.
-
-
-### Evaluation with Generation Models
-
-
-To run the evaluation for generation models, use the following command:
-
-```bash
-cd Evaluation
-bash end_to_end_eval.sh <dataset_path> <max_tokens> <prompt_template_name> <model_name> <exp_name> -1 <limits> <regeneration> False
-```
-
-Most of the arguments are same as the embedding model case.
-
-`<prompt_template_name>` The prompt template to use for generation.
-
-`<regeneration>` A boolean indicating whether the model will regenerate if it retrieves more than the specified number of sentences.
-
-The results of both `embedding_pipeline.sh` and `end_to_end_eval.sh` will be recorded in `Evaluation/post_process/logs.csv` under the specified `exp_name`.
 
