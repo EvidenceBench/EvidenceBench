@@ -1,0 +1,14 @@
+{
+    "nothing": {
+        "query": "{hypothesis}",
+        "candidate": "{candidate}"
+    },
+    "final_instr": {
+        "query": "From a biomedical experiment, find important and representative details that would form the most effective set of evidence relevant to the hypothesis.\n\n{hypothesis}\n",
+        "candidate": "{candidate}"
+    },
+    "result_final_instr": {
+        "query": "From a biomedical paper, find important and representative details about experiment outcome, results and analyses that would form the most effective set of evidence relevant to the hypothesis.\n\n{hypothesis}",
+        "candidate": "{candidate}"
+    }
+}

@@ -38,7 +38,7 @@ if __name__ == "__main__":
     cov_list = []
 
     for k,p in tqdm(dataset.items()):
-
+        # TODO: Make sure to change this after the dataset is done !!!!!!!!!!!!!!!!!!!
         
         key = k
         model_picked_sents_ind = parsed_list_dict[k]
@@ -57,6 +57,8 @@ if __name__ == "__main__":
                 model_covered_asp = []
 
                 for s in p['sentence_index2aspects']:
+                    if s not in p['results_aspect_list_ids']:
+                        continue
                     maximum_covered_asp += p['sentence_index2aspects'][s]
                     if int(s) in model_picked_sents_ind:
                         model_covered_asp += p['sentence_index2aspects'][s]
@@ -87,7 +89,7 @@ if __name__ == "__main__":
                     random.shuffle(model_picked_sents_ind)
 
                     for s in model_picked_sents_ind[:curr_sent_limit]:
-                        model_covered_asp += p['sentence_index2aspects'][str(s)]
+                        model_covered_asp += p['sentence_index2aspects'][s]
 
                     model_covered_asp = set(model_covered_asp)
 
@@ -95,6 +97,8 @@ if __name__ == "__main__":
 
                 cov_list.append(float(np.mean(temp_list)))
         else:
+            # this is the case for fixed sent_limit
+            # maximum_covered_asp_num = len(p['best_solutions'][sent_limit]['best_covered_aspects'])
 
             maximum_covered_asp = []
 
@@ -113,11 +117,13 @@ if __name__ == "__main__":
                 # maximum_covered_asp = []
                 model_covered_asp = []
 
-
                 for s in p['sentence_index2aspects']:
-                    if int(s) in model_picked_sents_ind:
-                        model_covered_asp += p['sentence_index2aspects'][str(s)]
-                                
+                    # maximum_covered_asp += p['sentence_index2aspects'][s]
+                    if s in model_picked_sents_ind:
+                        model_covered_asp += p['sentence_index2aspects'][s]
+                
+                # maximum_covered_asp = set(maximum_covered_asp)
+                
                 model_covered_asp = set(model_covered_asp)
 
                 if maximum_covered_asp_num == 0:
@@ -127,7 +133,11 @@ if __name__ == "__main__":
                 cov_list.append(len(model_covered_asp)/maximum_covered_asp_num)
 
             else:
+                # maximum_covered_asp = []
 
+                # for s in p['sentence_index2aspects']:
+                #     maximum_covered_asp += p['sentence_index2aspects'][s]
+                # maximum_covered_asp = set(maximum_covered_asp)
                 if maximum_covered_asp_num == 0:
                     warnings.warn(f"Should NOT happen: Maximum covered aspect is 0 for {key}")
                     continue
@@ -137,8 +147,7 @@ if __name__ == "__main__":
                     random.shuffle(model_picked_sents_ind)
 
                     for s in model_picked_sents_ind[:sent_limit]:
-
-                        model_covered_asp += p['sentence_index2aspects'][str(s)]
+                        model_covered_asp += p['sentence_index2aspects'][s]
 
                     model_covered_asp = set(model_covered_asp)
 

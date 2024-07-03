@@ -40,7 +40,7 @@ def load_model(model_name, cuda = None, model_path=None):
     loading models/tokenizers based on model_name, also based on cuda option specify whether DataParallel.
     Input: cuda option is a string, e.g. "1,3,5" specify cuda1, cuda3, and cuda5 will be used, store parameters on cuda1. 
     """
-    if model_name in ["e5"]:
+    if model_name in ["e5", "e5v3"]:
         tokenizer = AutoTokenizer.from_pretrained('intfloat/e5-large-v2')
         if model_path is None:
             model = AutoModel.from_pretrained('intfloat/e5-large-v2')
@@ -238,4 +238,10 @@ if __name__ == "__main__":
     print(f"Loading model: {model_name}....")
     
     model, tokenizer = load_model(model_name, cuda)
-    all_emb_dict = get_embedding(model_name, model, tokenizer, all_text_list, cuda, batch_size)    
+    all_emb_dict = get_embedding(model_name, model, tokenizer, all_text_list, cuda, batch_size)
+
+    # with open(emb_store_path, 'wb') as f:
+        # pickle.dump(all_emb_dict, f)
+
+
+    

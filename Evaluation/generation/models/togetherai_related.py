@@ -2,7 +2,7 @@ import os
 from together import Together
 
 
-together_ai_key = "REPLACE WITH YOUR TOGETHER AI API KEY"
+together_ai_key = "REPLACE WITH YOUR API KEY"
 
 def togetherai_generation(prompt,model,temperature=0,max_tokens=1024,top_p=1,frequency_penalty=0,presence_penalty=0):
     client = Together(api_key=together_ai_key)
@@ -26,7 +26,7 @@ def togetherai_generation_multi_turn(prompt,model,temperature=0,max_tokens=1024,
     if type(prompt) is not dict or 'conversation' not in prompt.keys():
         raise ValueError("For multiple turn case, the prompt dict provided is not in correct format")
     
-    client = Together(api_key=together_ai_key)
+    client = Together(api_key="REPLACE WITH YOUR API KEY")
 
     conversation = prompt['conversation']
 

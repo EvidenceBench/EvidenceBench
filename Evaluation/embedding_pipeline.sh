@@ -84,3 +84,4 @@ echo "===============================Finished===================================
 
 # Note: The script will stop executing at the first command that fails due to 'set -e'.
 
+# bash embedding_pipeline.sh ./dataset/ARIADNE_may19.pickle nothing GritLM full_GritLM 20 False 0 256

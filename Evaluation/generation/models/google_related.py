@@ -2,8 +2,7 @@ import google.generativeai as genai
 import threading
 import time
 
-
-available_keys = ['REPLACE WITH YOUR GOOGLE GENAI API KEY'] 
+available_keys = ["REPLACE WITH YOUR API KEY"]
 
 # Global dictionary to track the usage of each key
 key_usage_count = {key: 0 for key in available_keys}

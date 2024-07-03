@@ -1,79 +1,100 @@
 #!/bin/bash
 set -e
 
-
-# Check if exactly all arguments are provided
-if [ $# -ne 8 ]; then
-    echo "Usage: $0 <dataset_path> <instruction_template_name> <model_name> <exp_name> <limits> <use_api> <cuda> <batch_size>"
-    exit 1
-fi
-
-# Assign arguments to descriptive named variables
-dataset_path="$1"
-instruction_template_name="$2"
-model_name="$3"
-exp_name="$4"
-limits="$5"
-use_api="$6"
-cuda="$7"
-batch_size="$8"
-
-# Get the current date and time in Eastern Time
-current_time=$(TZ="America/Los_Angeles" date +"%Y-%m-%d_%H-%M-%S")
-pid_file="logs/PIDs/PIDs_from_embedding_pipeline_${exp_name}_${current_time}.pids"
-
 # Function to log the PID of the current script and subprocesses
 log_pid() {
     echo "$1: $2" >> "$pid_file"
 }
 
+
+# Check if exactly all arguments are provided
+if [ $# -ne 7 ]; then
+    echo "Usage: $0 <dataset_path> <max_tokens> <prompt_template_name> <model_name> <exp_name> <limits> <regeneration>"
+    exit 1
+fi
+
+# Assign arguments to descriptive named variables
+dataset_path="$1"
+max_tokens="$2"
+prompt_template_name="$3"
+model_name="$4"
+exp_name="$5"
+limits="$6"
+regeneration="$7"
+
+
+# Get the current date and time in Eastern Time
+current_time=$(TZ="America/Los_Angeles" date +"%Y-%m-%d_%H-%M-%S")
+pid_file="logs/PIDs/PIDs_from_end_to_end_eval_${exp_name}_${current_time}.pids"
+
 # Log the PID of the current script
 log_pid "Main Script" $$
 
-echo "PIPELINE STARTED"
-start_time=$(TZ="America/Los_Angeles" date +"%Y-%m-%d_%H-%M-%S")
-echo $start_time
-echo "=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-"
-
 # Print the variable names and values
 echo "Dataset path: $dataset_path"
-echo "Instruction template name: $instruction_template_name"
-echo "Embedding model name: $model_name"
+echo "Max tokens: $max_tokens"
+echo "Prompt template name: $prompt_template_name"
+echo "Generation model name: $model_name"
 echo "Experiment name: $exp_name"
 echo "Selection limits: $limits"
-echo "Use API: $use_api"
-echo "CUDA: $cuda"
-echo "batch_size: $batch_size"
+echo "Regeneration flag: $regeneration"
 
 echo "=================================================================="
 
-# Create text_list for embedding
-python3 pre_process/dataset2embedding_pre.py --dataset ${dataset_path} --instruction_name ${instruction_template_name} --exp_name ${exp_name} &
+# Create prompt dict for generation
+python3 pre_process/dataset2prompt_dict.py --dataset "$dataset_path" --prompt_template_name "$prompt_template_name" --prompt_dict_name "$exp_name" --limit ${limits} --output_path "generation/prompts" & 
 pid=$!
-log_pid "pre_process/dataset2embedding_pre.py" $pid
+log_pid "pre_process/dataset2prompt_dict.py" $pid
 wait $pid
+
+echo "Finish first round prompt dict generation..."
 echo "=================================================================="
 
-
-# Embed the text_list
-python3 embedding/embed.py --text_path "./embedding/text_to_emb/${exp_name}.pickle" --model_name ${model_name} --exp_name ${exp_name} --use_api ${use_api} --cuda ${cuda} --batch_size ${batch_size} &
+# LLM Generation
+python3 generation/generation.py --prompt_path "generation/prompts/${exp_name}.pickle" --output_path "generation/outputs/${exp_name}" --max_workers 25 --timeout_seconds 240 --generation_model ${model_name} --temperature 0 --max_tokens ${max_tokens} & 
 pid=$!
-log_pid "embedding/embed.py" $pid
+log_pid "generation/generation.py" $pid
 wait $pid
 
-echo "Finish embedding..."
+echo "Finish first round generation..."
 echo "=================================================================="
 
-# Parse the embedding output
-
-python3 post_process/embedding_scoring.py --model_name ${model_name} --model_output_path "./embedding/embedding_results/${exp_name}.pickle" --parsed_output_path ./post_process/parsed_output/${exp_name}.pickle --dataset_path ${dataset_path} --limit_k ${limits} &
+# First round parsing
+python3 post_process/parsing_first_round.py --model_name ${model_name} --model_output_path "generation/outputs/${exp_name}/collected_results.pickle" --parsed_output_path "./post_process/parsed_output/${exp_name}.pickle" --original_prompt_dict_path "generation/prompts/${exp_name}.pickle" --regen_prompt_dict_path "generation/prompts/${exp_name}_regen.pickle" --limit_k ${limits} --dataset_path ${dataset_path} & 
 pid=$!
-log_pid "post_process/embedding_scoring.py" $pid
+log_pid "post_process/parsing_first_round.py" $pid
 wait $pid
 
+echo "Finish first round parsing..."
+echo "=================================================================="
+
+if [ "${regeneration}" == "True" ]; then
+    echo "Start second round generation and parsing..."
+
+    # LLM Generation second round
+    python3 generation/generation.py --prompt_path "generation/prompts/${exp_name}_regen.pickle" --output_path "generation/outputs/${exp_name}_regen" --max_workers 25 --timeout_seconds 240 --generation_model ${model_name} --temperature 0 --max_tokens ${max_tokens} --multi_turn ${regeneration} & 
+    pid=$!
+    log_pid "generation/generation.py" $pid
+    wait $pid
+
+    echo "Finish second round generation..."
+    echo "=================================================================="
+
+    # Second round parsing
+    python3 post_process/parsing_second_round.py --model_name ${model_name} --model_output_path "generation/outputs/${exp_name}_regen/collected_results.pickle" --parsed_output_path "post_process/parsed_output/${exp_name}.pickle" --original_prompt_dict_path "generation/prompts/${exp_name}.pickle" & 
+    pid=$!
+    log_pid "post_process/parsing_second_round.py" $pid
+    wait $pid
+
+    echo "Finish second round parsing..."
+    echo "=================================================================="
+    
+fi
+
+echo "Start evaluation..."
 
 # Post process and evaluation
-python3 post_process/evaluate.py --model_name ${model_name} --input_path "./post_process/parsed_output/${exp_name}.pickle" --limit_k ${limits} --dataset_path ${dataset_path} --exp_name ${exp_name} --logging_csv "post_process/logs.csv" &
+python3 post_process/evaluate.py --model_name ${model_name} --input_path "./post_process/parsed_output/${exp_name}.pickle" --limit_k ${limits} --dataset_path ${dataset_path} --exp_name ${exp_name} --logging_csv "post_process/logs.csv" & 
 pid=$!
 log_pid "post_process/evaluate.py" $pid
 wait $pid
@@ -83,4 +104,3 @@ echo "The results will be added to post_process/logs.csv"
 echo "===============================Finished==================================="
 
 # Note: The script will stop executing at the first command that fails due to 'set -e'.
-

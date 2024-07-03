@@ -62,7 +62,7 @@ if __name__ == "__main__":
             curr_count += 1
         if limit == -1:
             # this is the case for optimal_k
-            curr_limit = p['evidence_retrieval_at_optimal_evaluation']['optimal']
+            curr_limit = p['results_evidence_retrieval_at_optimal_evaluation']['optimal']
         else:
             curr_limit = limit
 

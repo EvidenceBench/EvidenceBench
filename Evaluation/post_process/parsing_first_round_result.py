@@ -34,7 +34,7 @@ if __name__ == "__main__":
 
     hint2opt_k = {}
     for k,p in dataset.items():
-        hint2opt_k[k] = p['evidence_retrieval_at_optimal_evaluation']['optimal']
+        hint2opt_k[k] = p['results_evidence_retrieval_at_optimal_evaluation']['optimal']
 
     with open(model_output_path, "rb") as f:
         model_output = pickle.load(f)

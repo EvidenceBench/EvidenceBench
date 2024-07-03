@@ -3,8 +3,7 @@ from .util import jpg_path2base64
 
 
 
-openai_api_key = "REPLACE WITH YOUR OPENAI API KEY"
-
+openai_api_key = "REPLACE WITH YOUR API KEY"
 
 def gpt_generation(prompt,model,temperature=0,max_tokens=1024,top_p=1,frequency_penalty=0,presence_penalty=0):
     client = OpenAI(api_key = openai_api_key)

@@ -5,7 +5,7 @@ from tqdm import tqdm
 import pdb
 import numpy as np
 
-openai_api_key = "REPLACE WITH YOUR OPENAI API KEY" 
+openai_api_key = "REPLACE WITH YOUR API KEY" 
 
 def openai_embedding(text, model):
     # Note that "prompt" is not used to generate anything. This function only finds the embedding of the prompt

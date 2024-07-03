@@ -6,7 +6,7 @@ from tqdm import tqdm
 import tiktoken
 import numpy as np
 
-api_key = 'REPLACE WITH YOUR VOYAGE AI API KEY'
+api_key = 'REPLACE WITH YOUR API KEY'
 
 
 def num_tokens_from_string(string, encoding_name='gpt-4-turbo'):

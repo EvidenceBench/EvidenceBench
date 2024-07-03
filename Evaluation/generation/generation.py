@@ -17,10 +17,6 @@ from models.anthropic_related import generate_claude_response, generate_claude_r
 from models.google_related import generate_gemini_response, generate_gemini_response_with_image, generate_gemini_response_multi_turn
 from models.togetherai_related import togetherai_generation, togetherai_generation_multi_turn
 
-from models.LongChat import generate_longchat_response
-from models.YaRN_Mistral import generate_yarn_mistral_response
-# from models.MPT import generate_mpt_response
-
 # Global Variables:# Global variable
 cumulative_input_tokens = 0
 cumulative_output_tokens = 0
@@ -117,6 +113,12 @@ def call_prompts_in_parallel(prompts_dict, output_path, start_ind, end_ind, max_
     
     # Use ThreadPoolExecutor to run tasks in parallel.
     with ThreadPoolExecutor(max_workers=max_workers) as executor:
+        # A dictionary to keep track of future submissions.
+        # future_to_id = {}
+        # for identifier, prompt in prompts_dict.items():
+        #     executor.submit(call_until_timeout, **fixed_params, prompt=prompt): identifier
+
+        # future_to_id = {executor.submit(call_until_timeout, **fixed_params, prompt=prompt): identifier for identifier, prompt in prompts_dict.items()}
 
         future_to_id = {}
 
@@ -150,6 +152,7 @@ def load_prompt_dict(prompt_path):
     return prompts
 
 def print_args_and_wait(args):
+    # Iterate over all attributes in the args object
 
     max_arg_length = max(len(arg) for arg in vars(args))
 
@@ -213,7 +216,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
     
-    with open("/generation/model_price.json", 'r') as f:
+    with open("generation/model_price.json", 'r') as f:
         model_price = json.load(f)
 
     if args.with_images == "True" and args.multi_turn == "True":
@@ -357,3 +360,5 @@ if __name__ == "__main__":
             pickle.dump(remaining_prompts,f)
 
         print(f"Remaining prompts are saved at ./{args.output_path}/remaining_prompts.pickle")
+
+
