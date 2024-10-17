@@ -40,7 +40,18 @@ Note, the train set and dev set have exactly the same structure. The dataset is 
 
 ### EvidenceBench-100k
 
-EvidenceBench-100k is a larger dataset of 107,461 datapoints created from biomedical systematic reviews. The dataset has a train, test split of (87,461, 20,000) points. These two datasets are available at [huggingface](https://huggingface.co/datasets/EvidenceBench/EvidenceBench-100k) as `evidencebench_100k_train_set.json`, `evidencebench_100k_test_set.json`. Both subsets have the same structure as described above.
+EvidenceBench-100k is a larger dataset of 107,461 datapoints created from biomedical systematic reviews. The dataset has a train, test split of (87,461, 20,000) points. These two datasets are available at [huggingface](https://huggingface.co/datasets/EvidenceBench/EvidenceBench-100k) as `evidencebench_100k_train_set.json`, `evidencebench_100k_test_set.json`. 
+
+We highly recommend you to download and place the downloaded datasets into the `datasets` folder using the following commands:
+```
+git clone https://huggingface.co/datasets/EvidenceBench/EvidenceBench-100k
+cp -r EvidenceBench-100k/*.json datasets/
+rm -r EvidenceBench-100k
+```
+
+Both subsets have the same structure as described above.
+
+
 
 ## Evaluation
 
