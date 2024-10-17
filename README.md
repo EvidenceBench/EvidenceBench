@@ -9,7 +9,7 @@ We study the task of finding evidence for a hypothesis in the biomedical literat
 
 ### Original EvidenceBench
 
-EvidenceBench uses a train, dev, test split. All three subsets have the same structure. The nth data instance in the test set has a unique identifier `evidencebench_test_id_n` where n is a numerical number. Similarly for train and dev, the nth data instance is `evidencebench_train_id_n` and `evidencebench_dev_id_n`.
+The original EvidenceBench consists of 426 datapoints, with a train, dev, test split of (96, 37, 293) points. The three datasets are placed under `datasets` folder as `evidencebench_train_set.json`, `evidencebench_dev_set.json`, `evidencebench_test_set.json`. All three subsets have the same structure. The nth data instance in the test set has a unique identifier `evidencebench_test_id_n` where n is a numerical number. Similarly for train and dev, the nth data instance is `evidencebench_train_id_n` and `evidencebench_dev_id_n`.
 
 Each data instance has the following features, represented as JSON keys:
 - `hypothesis`: string format, the main query, the biomedical hypothesis.
