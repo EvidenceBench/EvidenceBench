@@ -7,6 +7,7 @@ We study the task of finding evidence for a hypothesis in the biomedical literat
 
 ## Dataset Description:
 
+### Original EvidenceBench
 
 EvidenceBench uses a train, dev, test split. All three subsets have the same structure. The nth data instance in the test set has a unique identifier `evidencebench_test_id_n` where n is a numerical number. Similarly for train and dev, the nth data instance is `evidencebench_train_id_n` and `evidencebench_dev_id_n`.
 
