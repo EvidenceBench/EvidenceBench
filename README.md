@@ -1,7 +1,7 @@
 # EvidenceBench: A Benchmark for Extracting Evidence from Biomedical Papers
 
 For the original EvidenceBench dataset: The test set is available under the CC-BY License. The training and development sets are available under the CC-BY-NC-SA License.
-The 100k EvidenceBench dataset is available under the CC-BY-NC License.
+The EvidenceBench-100k dataset is available under the CC-BY-NC License.
 
 ## Paper abstract
 We study the task of finding evidence for a hypothesis in the biomedical literature. Finding relevant evidence is a necessary precursor for evaluating the validity of scientific hypotheses, and for applications such as automated meta-analyses and scientifically grounded question-answering systems. To this end, we present EvidenceBench, an open-sourced, comprehensive and large scale dataset of over 100,000 datapoints designed for evaluating and fine-tuning models' hypothesis understanding and evidence retrieval ability. Each datapoint is a biomedical paper from over 200 publication venues, covering diverse topics such as cardiology, neurology, infectious disease, public health, and nutrition. EvidenceBench is made from a novel and scalable LLM-based pipeline that can quickly generate expert-level quality, sentence-by-sentence annotation of biomedical papers, where sentences important for hypotheses are highlighted. Our pipeline generated over 150 million sentence judgments under 24 hours. Our pipeline's quality is validated using teams of human expert annotators. We evaluate a diverse set of language models and retrieval systems on EvidenceBench. The performance of the best models still falls significantly short of expert-level on this task. Our fine-tuned E5 embedding model (335M) and Llama3 language model (8B) show significant improvements over their baselines and achieve performance comparable with some Large Language Models (Claude3, Gemini1.5), though still lags behind GPT4.  EvidenceBench will support the development of tools which automate evidence synthesis and hypothesis testing, as well as the long-context global reasoning and instruction-following abilities for Large Language Models (LLM) and embedding-based IR systems. 
@@ -10,7 +10,7 @@ We study the task of finding evidence for a hypothesis in the biomedical literat
 
 ### Original EvidenceBench
 
-The original EvidenceBench consists of 426 datapoints, with a train, dev, test split of (96, 37, 293) points. The three datasets are placed under `datasets` folder as `evidencebench_train_set.json`, `evidencebench_dev_set.json`, `evidencebench_test_set.json`. All three subsets have the same structure. The nth data instance in the test set has a unique identifier `evidencebench_test_id_n` where n is a numerical number. Similarly for train and dev, the nth data instance is `evidencebench_train_id_n` and `evidencebench_dev_id_n`.
+The original EvidenceBench consists of 426 datapoints created from e International Agency for Research on Cancer (IARC) monograph. The dataset has a train, dev, test split of (96, 37, 293) points. These three datasets are placed under `datasets` folder as `evidencebench_train_set.json`, `evidencebench_dev_set.json`, `evidencebench_test_set.json`. All three subsets have the same structure. The nth data instance in the test set has a unique identifier `evidencebench_test_id_n` where n is a numerical number. Similarly for train and dev, the nth data instance is `evidencebench_train_id_n` and `evidencebench_dev_id_n`.
 
 Each data instance has the following features, represented as JSON keys:
 - `hypothesis`: string format, the main query, the biomedical hypothesis.
@@ -38,6 +38,9 @@ Each data instance has the following features, represented as JSON keys:
 
 Note, the train set and dev set have exactly the same structure. The dataset is available for download in this repository.
 
+### EvidenceBench-100k
+
+EvidenceBench-100k is a larger dataset of 107,461 datapoints created from biomedical systematic reviews. The dataset has a train, test split of (87,461, 20,000) points. These two datasets are placed under `datasets` folder as `evidencebench_100k_train_set.json`, `evidencebench_100k_test_set.json`. Both subsets have the same structure as described above.
 
 ## Evaluation
 
