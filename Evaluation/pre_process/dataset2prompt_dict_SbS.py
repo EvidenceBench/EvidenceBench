@@ -61,7 +61,7 @@ if __name__ == "__main__":
     with open(dataset_path, "r") as f:
         dataset = json.load(f)
 
-    with open("/data/Elsevier/Evaluation/pre_process/prompt_template.json", 'r') as f:
+    with open("./prompt_template.json", 'r') as f:
         prompt_template = json.load(f)
 
     sbs_prompt_template = prompt_template[prompt_template_name]
