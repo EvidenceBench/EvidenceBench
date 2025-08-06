@@ -42,7 +42,7 @@ if __name__ == "__main__":
         dataset = json.load(f)
       
 
-    with open("/data/Elsevier/Evaluation/pre_process/prompt_template.json", 'r') as f:
+    with open("./prompt_template.json", 'r') as f:
         prompt_template = json.load(f)
 
     try:
