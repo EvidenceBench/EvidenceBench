@@ -13,7 +13,7 @@ if __name__ == "__main__":
     # Add arguments to the parser
     parser.add_argument('--text_path', type=str, help='Path to the text to emb')
     parser.add_argument('--model_name', type=str, help='the name of the model used for embedding', required=True)
-    parser.add_argument('--output_path', default="/data/Elsevier/Evaluation/embedding/embedding_results/", type=str, help='Path to the dir of the output file')
+    parser.add_argument('--output_path', default="./embedding_results/", type=str, help='Path to the dir of the output file')
     parser.add_argument('--exp_name', type=str, help='Name of the experiment', required=True)
     parser.add_argument('--use_api', type=str, help='Whether to use the API to embed the text', default=False)
     parser.add_argument('--cuda', type=str, help='The string that describes the cuda to use for embedding', default="0")
