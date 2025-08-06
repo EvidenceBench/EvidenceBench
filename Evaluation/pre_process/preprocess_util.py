@@ -214,7 +214,7 @@ def list_files_abs_path(directory):
 
 def find_img_path_for_point(point):
     point_id = f"{point['id_type']}_{point['id']}"
-    file_path_list = list_files_abs_path(f"/data/Elsevier/Evaluation/generation/images/{point_id}/")
+    file_path_list = list_files_abs_path(f"../generation/images/{point_id}/")
 
     return file_path_list
 
