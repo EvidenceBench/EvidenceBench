@@ -11,7 +11,7 @@ if __name__ == "__main__":
     # Add arguments to the parser
     parser.add_argument('--dataset', type=str, help='Path to the dataset')
     parser.add_argument('--instruction_name', type=str, help='the instruction added before the hypothesis', required=True)
-    parser.add_argument('--output_path', default="/data/Elsevier/embedding/text_to_emb/", type=str, help='Path to the dir of the output formatted file')
+    parser.add_argument('--output_path', default="../embedding/text_to_emb/", type=str, help='Path to the dir of the output formatted file')
     parser.add_argument('--exp_name', type=str, help='Name of the experiment', required=True)
 
     # Parse the command line arguments
@@ -45,7 +45,7 @@ if __name__ == "__main__":
         for candidate in point['paper_as_candidate_pool']:
             doc_dict[candidate] = candidate_instruction.format(candidate=candidate)
 
-    with open(f"/data/Elsevier/Evaluation/embedding/text_to_emb/{exp_name}.pickle", "wb") as f:
+    with open(f"../embedding/text_to_emb/{exp_name}.pickle", "wb") as f:
         pickle.dump({'query': query_dict, 'candidate': doc_dict}, f)
 
     
