@@ -52,8 +52,6 @@ if __name__ == "__main__":
         dataset = json.load(f)
     with open(model_output_path, 'rb') as f:
         embedding_output = pickle.load(f)
-    # with open("/data/Elsevier/Evaluation/pre_process/instruction_for_emb.json", "r") as f:
-    #     instruction_temp = json.load(f)
         
     # instruction = instruction_temp[instruction_name]
     all_top_k_idx = get_top_k_docs(dataset, embedding_output, limit_k)
