@@ -16,7 +16,7 @@ if __name__ == "__main__":
     # Add arguments to the parser
     parser.add_argument('--dataset', type=str, help='Path to the dataset')
     parser.add_argument('--prompt_template_name', type=str, help='the prompt template to load', required=True)
-    parser.add_argument('--output_path', default="/data/Elsevier/Evaluation/generation/prompts/", type=str, help='Path to the dir of the output file')
+    parser.add_argument('--output_path', default="./generation/prompts/", type=str, help='Path to the dir of the output file')
     parser.add_argument('--prompt_dict_name', type=str, help='Name of the prompt_dict', required=True)
     parser.add_argument("--limit", type=int, help='the max number of sentences to retrieve, -1 means optimal k', default=-1)
 
