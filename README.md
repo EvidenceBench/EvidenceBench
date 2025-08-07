@@ -82,6 +82,7 @@ bash embedding_pipeline.sh <dataset_path> <instruction_template_name> <model_nam
 
 `<batch_size>`: The batch size for local embedding models.
 
+We record pids of the running scripts under folder `logs`. You could use ```kill <pid>``` to stop them.
 
 ### Evaluation with Generation Models
 
