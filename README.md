@@ -100,4 +100,8 @@ Most of the arguments are same as the embedding model case.
 
 `<regeneration>` A boolean indicating whether the model will regenerate if it retrieves more than the specified number of sentences.
 
+For example, you can test gpt-4o on the baseline prompt using
+
+``` bash end_to_end_eval.sh ../datasets/evidencebench_test_set.json 2048 original_final gpt-4o-2024-05-13 test_experiment_1 -1 True ```
+
 The results of both `embedding_pipeline.sh` and `end_to_end_eval.sh` will be recorded in `Evaluation/post_process/logs.csv` under the specified `exp_name`.
