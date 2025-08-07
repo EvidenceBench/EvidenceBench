@@ -57,27 +57,6 @@ Both subsets have the same structure as described above.
 
 We provide code for end-to-end evaluation on our benchmark using text embedding models or text generation models. The current pipeline supports all the embedding and generation models mentioned in our paper.
 
-
-
-### Evaluation with Generation Models
-
-
-To run the evaluation for generation models, use the following command:
-
-```bash
-cd Evaluation
-bash end_to_end_eval.sh <dataset_path> <max_tokens> <prompt_template_name> <model_name> <exp_name> -1 <limits> <regeneration> False
-```
-
-Most of the arguments are same as the embedding model case.
-
-`<prompt_template_name>` The prompt template to use for generation.
-
-`<regeneration>` A boolean indicating whether the model will regenerate if it retrieves more than the specified number of sentences.
-
-The results of both `embedding_pipeline.sh` and `end_to_end_eval.sh` will be recorded in `Evaluation/post_process/logs.csv` under the specified `exp_name`.
-
-
 ### Evaluation with Embedding Models
 
 To run the end-to-end evluation for embeddding models, run the following:
@@ -95,7 +74,7 @@ bash embedding_pipeline.sh <dataset_path> <instruction_template_name> <model_nam
 
 `<exp_name>`: The name under which the evaluation results will be documented in the experiment logs.
 
-`<limits>`: The limit used for calculating recall@limits during evaluation.
+`<limits>`: The limit used for calculating recall@limits during evaluation. **Set to -1 for calculating recall@optimal**.
 
 `<use_api>`: A boolean indicating whether the embedding model requires API calls. Set to True for voyage or OpenAI-related models.
 
@@ -103,3 +82,21 @@ bash embedding_pipeline.sh <dataset_path> <instruction_template_name> <model_nam
 
 `<batch_size>`: The batch size for local embedding models.
 
+
+### Evaluation with Generation Models
+
+
+To run the evaluation for generation models, use the following command:
+
+```bash
+cd Evaluation
+bash end_to_end_eval.sh <dataset_path> <max_tokens> <prompt_template_name> <model_name> <exp_name> <limits> <regeneration>
+```
+
+Most of the arguments are same as the embedding model case.
+
+`<prompt_template_name>` The prompt template to use for generation.
+
+`<regeneration>` A boolean indicating whether the model will regenerate if it retrieves more than the specified number of sentences.
+
+The results of both `embedding_pipeline.sh` and `end_to_end_eval.sh` will be recorded in `Evaluation/post_process/logs.csv` under the specified `exp_name`.
