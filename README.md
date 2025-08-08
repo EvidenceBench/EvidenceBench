@@ -13,16 +13,6 @@
   <sup>5</sup>The Third People’s Hospital of Chengdu
 </p>
 
-<style>
-  .affils{
-    font-family: serif;
-    font-size: 14px;
-    line-height: 1.4;
-    margin-top: 0;
-    text-align: left !important; /* overrides a centered parent */
-  }
-</style>
-
 [![COLM 2025](https://img.shields.io/badge/COLM-2025-purple.svg)](https://colmweb.org/)&nbsp; [![arXiv](https://img.shields.io/badge/arXiv-2504.18736-<COLOR>.svg)](https://arxiv.org/abs/2504.18736)
 
 </div>
