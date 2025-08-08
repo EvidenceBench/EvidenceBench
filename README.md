@@ -1,12 +1,46 @@
-# EvidenceBench: A Benchmark for Extracting Evidence from Biomedical Papers
+<div align="center">
+<h1>EvidenceBench: A Benchmark for Extracting Evidence from Biomedical Papers (COLM 2025)</h1>
 
-For the original EvidenceBench dataset: The test set is available under the CC-BY License. The training and development sets are available under the CC-BY-NC-SA License.
-The EvidenceBench-100k dataset is available under the CC-BY-NC License.
+<p style="font-family: serif; font-size: 16px; line-height: 1.4;">
+  <b>Jianyou Wang<sup>1*</sup>, Weili Cao<sup>1*</sup>, Kaicheng Wang<sup>1</sup>, Xiaoyue Wang<sup>1</sup>, Ashish Dalvi<sup>1</sup>, Gino Prasad<sup>1</sup>, Qishan Liang<sup>3</sup>, Hsuan-lin Her<sup>3</sup>, Ming Wang<sup>4</sup>, Qin Yang<sup>5</sup>, Gene W. Yeo<sup>3</sup>, David E. Neal<sup>2</sup>, Maxim Khan<sup>2</sup>, Christopher D. Rosin<sup>2</sup>, Ramamohan Paturi<sup>1</sup>, Leon Bergen<sup>1</sup></b>
+</p>
+
+<p class="affils">
+  <sup>1</sup>Laboratory for Emerging Intelligence, University of California, San Diego<br>
+  <sup>2</sup>Elsevier<br>
+  <sup>3</sup>Department of Cellular and Molecular Medicine, University of California, San Diego<br>
+  <sup>4</sup>Sichuan Cancer Hospital &amp; Institute<br>
+  <sup>5</sup>The Third People’s Hospital of Chengdu
+</p>
+
+<style>
+  .affils{
+    font-family: serif;
+    font-size: 14px;
+    line-height: 1.4;
+    margin-top: 0;
+    text-align: left !important; /* overrides a centered parent */
+  }
+</style>
+
+[![COLM 2025](https://img.shields.io/badge/COLM-2025-purple.svg)](https://colmweb.org/)&nbsp; [![arXiv](https://img.shields.io/badge/arXiv-2504.18736-<COLOR>.svg)](https://arxiv.org/abs/2504.18736)
+
+</div>
+
+## Table of Contents
+* [Paper abstract](#paper-abstract)
+* [Dataset Description](#dataset-description)
+  * [Original EvidenceBench](#original-evidencebench)
+  * [EvidenceBench-100k](#evidencebench-100k)
+* [Evaluation](#evaluation)
+  * [Evaluation with Embedding Models](#evaluation-with-embedding-models)
+  * [Evaluation with Generation Models](#evaluation-with-generation-models)
+* [License](#license)
 
 ## Paper abstract
 We study the task of finding evidence for a hypothesis in the biomedical literature. Finding relevant evidence is a necessary precursor for evaluating the validity of scientific hypotheses, and for applications such as automated meta-analyses and scientifically grounded question-answering systems. To this end, we present EvidenceBench, an open-sourced, comprehensive and large scale dataset of over 100,000 datapoints designed for evaluating and fine-tuning models' hypothesis understanding and evidence retrieval ability. Each datapoint is a biomedical paper from over 200 publication venues, covering diverse topics such as cardiology, neurology, infectious disease, public health, and nutrition. EvidenceBench is made from a novel and scalable LLM-based pipeline that can quickly generate expert-level quality, sentence-by-sentence annotation of biomedical papers, where sentences important for hypotheses are highlighted. Our pipeline generated over 150 million sentence judgments under 24 hours. Our pipeline's quality is validated using teams of human expert annotators. We evaluate a diverse set of language models and retrieval systems on EvidenceBench. The performance of the best models still falls significantly short of expert-level on this task. Our fine-tuned E5 embedding model (335M) and Llama3 language model (8B) show significant improvements over their baselines and achieve performance comparable with some Large Language Models (Claude3, Gemini1.5), though still lags behind GPT4.  EvidenceBench will support the development of tools which automate evidence synthesis and hypothesis testing, as well as the long-context global reasoning and instruction-following abilities for Large Language Models (LLM) and embedding-based IR systems. 
 
-## Dataset Description:
+## Dataset Description
 
 ### Original EvidenceBench
 
@@ -105,3 +139,9 @@ For example, you can test gpt-4o on the baseline prompt using
 ``` bash end_to_end_eval.sh ../datasets/evidencebench_test_set.json 2048 original_final gpt-4o-2024-05-13 test_experiment_1 -1 True ```
 
 The results of both `embedding_pipeline.sh` and `end_to_end_eval.sh` will be recorded in `Evaluation/post_process/logs.csv` under the specified `exp_name`.
+
+## License
+
+For the original EvidenceBench dataset: The test set is available under the CC-BY License. The training and development sets are available under the CC-BY-NC-SA License.
+
+The EvidenceBench-100k dataset is available under the CC-BY-NC License.
